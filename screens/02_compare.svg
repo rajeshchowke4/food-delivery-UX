@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844" style="background:#FFFFFF; font-family:-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;">
+  <rect width="390" height="844" rx="44" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="388" height="842" rx="43" fill="none" stroke="#E5E3DD" stroke-width="2"/>
+
+  <!-- DYNAMIC ISLAND / NOTCH -->
+  <rect x="135" y="12" width="120" height="30" rx="15" fill="#111111"/>
+
+  <!-- STATUS BAR -->
+  <text x="36" y="32" font-size="14" fill="#111111" font-weight="600">10:11</text>
+  <g transform="translate(325, 22)">
+    <path d="M0 10 L3 10 M5 8 L8 8 M10 5 L13 5 M15 2 L18 2" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+    <rect x="24" y="2" width="20" height="10" rx="3" fill="none" stroke="#111111" stroke-width="1.5"/>
+    <rect x="26" y="4" width="14" height="6" rx="1.5" fill="#111111"/>
+    <line x1="45" y1="5" x2="45" y2="9" stroke="#111111" stroke-width="1.5"/>
+  </g>
+
+  <!-- TOP HEADER: BACK + SEARCH -->
+  <g transform="translate(24, 62)">
+    <path d="M12 0 L2 10 L12 20" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="26" y="16" font-size="20" fill="#111111" font-weight="700">Search</text>
+  </g>
+
+  <!-- SEARCH INPUT (thai) -->
+  <g transform="translate(24, 104)">
+    <rect width="342" height="48" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="1.5"/>
+    <circle cx="22" cy="24" r="7" fill="none" stroke="#111111" stroke-width="2"/>
+    <line x1="27" y1="29" x2="33" y2="35" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+    <text x="44" y="29" font-size="16" fill="#111111" font-weight="600">thai</text>
+    <circle cx="318" cy="24" r="10" fill="#EAE8E1"/>
+    <path d="M315 21 L321 27 M321 21 L315 27" stroke="#555555" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- FILTER CHIPS -->
+  <g transform="translate(24, 166)">
+    <!-- Under 30m (Active selected) -->
+    <rect width="100" height="34" rx="17" fill="#FAF9F5" stroke="#111111" stroke-width="1.5"/>
+    <text x="50" y="22" font-size="13" fill="#111111" font-weight="700" text-anchor="middle">Under 30m ✓</text>
+    
+    <!-- Rating 4.5+ -->
+    <rect x="110" width="102" height="34" rx="17" fill="#FFFFFF" stroke="#DCD9D0" stroke-width="1"/>
+    <text x="161" y="22" font-size="13" fill="#444444" font-weight="500" text-anchor="middle">Rating 4.5+</text>
+    
+    <!-- Fees <$3 -->
+    <rect x="222" width="86" height="34" rx="17" fill="#FFFFFF" stroke="#DCD9D0" stroke-width="1"/>
+    <text x="265" y="22" font-size="13" fill="#444444" font-weight="500" text-anchor="middle">Fees &lt;$3</text>
+  </g>
+
+  <!-- RESULT COUNT -->
+  <g transform="translate(24, 224)">
+    <text x="0" y="16" font-size="18" fill="#111111" font-weight="700">18 Thai restaurants</text>
+    <text x="342" y="15" font-size="13" fill="#666666" text-anchor="end">Sorted by: Speed</text>
+  </g>
+
+  <!-- RESTAURANTS LIST -->
+  <g transform="translate(24, 256)">
+    <!-- Card 1: Siam Corner -->
+    <g transform="translate(0, 0)">
+      <rect width="342" height="106" rx="14" fill="#FAF9F5" stroke="#EAE8E1" stroke-width="1"/>
+      <rect x="12" y="12" width="82" height="82" rx="10" fill="#EAE8E1"/>
+      <line x1="12" y1="12" x2="94" y2="94" stroke="#D8D5CC" stroke-width="1"/>
+      <line x1="12" y1="94" x2="94" y2="12" stroke="#D8D5CC" stroke-width="1"/>
+      
+      <text x="106" y="34" font-size="17" fill="#111111" font-weight="700">Siam Corner</text>
+      <text x="106" y="58" font-size="13.5" fill="#555555">★ 4.8 (1,240 reviews)</text>
+      <text x="106" y="82" font-size="13.5" fill="#111111" font-weight="600">20–25 min · $1.99 fee</text>
+    </g>
+
+    <!-- Card 2: Basil & Lime -->
+    <g transform="translate(0, 122)">
+      <rect width="342" height="106" rx="14" fill="#FAF9F5" stroke="#EAE8E1" stroke-width="1"/>
+      <rect x="12" y="12" width="82" height="82" rx="10" fill="#EAE8E1"/>
+      <line x1="12" y1="12" x2="94" y2="94" stroke="#D8D5CC" stroke-width="1"/>
+      <line x1="12" y1="94" x2="94" y2="12" stroke="#D8D5CC" stroke-width="1"/>
+      
+      <text x="106" y="34" font-size="17" fill="#111111" font-weight="700">Basil &amp; Lime</text>
+      <text x="106" y="58" font-size="13.5" fill="#555555">★ 4.5 (620 reviews)</text>
+      <text x="106" y="82" font-size="13.5" fill="#111111" font-weight="600">30–40 min · $0.99 fee</text>
+    </g>
+
+    <!-- Card 3: Bangkok Wokbox -->
+    <g transform="translate(0, 244)">
+      <rect width="342" height="106" rx="14" fill="#FAF9F5" stroke="#EAE8E1" stroke-width="1"/>
+      <rect x="12" y="12" width="82" height="82" rx="10" fill="#EAE8E1"/>
+      <line x1="12" y1="12" x2="94" y2="94" stroke="#D8D5CC" stroke-width="1"/>
+      <line x1="12" y1="94" x2="94" y2="12" stroke="#D8D5CC" stroke-width="1"/>
+      
+      <text x="106" y="34" font-size="17" fill="#111111" font-weight="700">Bangkok Wokbox</text>
+      <text x="106" y="58" font-size="13.5" fill="#555555">★ 4.7 (910 reviews)</text>
+      <text x="106" y="82" font-size="13.5" fill="#111111" font-weight="600">25–35 min · $2.49 fee</text>
+    </g>
+  </g>
+
+  <!-- STICKY VALUE PROPOSITION BANNER -->
+  <g transform="translate(24, 680)">
+    <rect width="342" height="52" rx="12" fill="#F7F6F2" stroke="#DCD9D0" stroke-width="1.2"/>
+    <circle cx="28" cy="26" r="10" fill="none" stroke="#111111" stroke-width="1.8"/>
+    <text x="28" y="30" font-size="12" fill="#111111" font-weight="700" text-anchor="middle">i</text>
+    <text x="48" y="25" font-size="13" fill="#111111" font-weight="600">Fees shown before you open a menu</text>
+    <text x="48" y="40" font-size="11" fill="#666666">No surprise service or small basket charges at checkout</text>
+  </g>
+
+  <!-- HOME BAR -->
+  <rect x="125" y="820" width="140" height="5" rx="2.5" fill="#111111"/>
+</svg>

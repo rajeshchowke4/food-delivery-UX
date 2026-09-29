@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844" style="background:#FFFFFF; font-family:-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;">
+  <rect width="390" height="844" rx="44" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="388" height="842" rx="43" fill="none" stroke="#E5E3DD" stroke-width="2"/>
+
+  <!-- DYNAMIC ISLAND -->
+  <rect x="135" y="12" width="120" height="30" rx="15" fill="#111111"/>
+  <text x="36" y="32" font-size="14" fill="#111111" font-weight="600">10:11</text>
+  <g transform="translate(325, 22)">
+    <path d="M0 10 L3 10 M5 8 L8 8 M10 5 L13 5 M15 2 L18 2" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+    <rect x="24" y="2" width="20" height="10" rx="3" fill="none" stroke="#111111" stroke-width="1.5"/>
+    <rect x="26" y="4" width="14" height="6" rx="1.5" fill="#111111"/>
+    <line x1="45" y1="5" x2="45" y2="9" stroke="#111111" stroke-width="1.5"/>
+  </g>
+
+  <!-- CONFIRMATION GRAPHIC -->
+  <g transform="translate(195, 150)">
+    <circle cx="0" cy="0" r="42" fill="#111111"/>
+    <path d="M-14 0 L-4 10 L14 -8" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- HEADINGS -->
+  <g transform="translate(195, 230)">
+    <text x="0" y="0" font-size="26" fill="#111111" font-weight="800" text-anchor="middle">Order confirmed</text>
+    <text x="0" y="26" font-size="15" fill="#666666" text-anchor="middle">Siam Corner is preparing your order</text>
+  </g>
+
+  <!-- ETA CARD -->
+  <g transform="translate(24, 290)">
+    <rect width="342" height="96" rx="16" fill="#FAF9F5" stroke="#E2DFD7" stroke-width="1.2"/>
+    <text x="171" y="48" font-size="32" fill="#111111" font-weight="800" text-anchor="middle">7:10–7:20 PM</text>
+    <text x="171" y="74" font-size="12" fill="#777777" font-weight="700" text-anchor="middle" font-family="monospace" letter-spacing="1">ESTIMATED ARRIVAL</text>
+  </g>
+
+  <!-- TRACKING TIMELINE -->
+  <g transform="translate(48, 430)">
+    <!-- Connecting Line -->
+    <line x1="12" y1="12" x2="12" y2="152" stroke="#EAE8E1" stroke-width="2.5"/>
+    <line x1="12" y1="12" x2="12" y2="58" stroke="#111111" stroke-width="2.5"/>
+
+    <!-- Step 1: Order received (Complete) -->
+    <g transform="translate(0, 0)">
+      <circle cx="12" cy="12" r="10" fill="#111111"/>
+      <path d="M8 12 L11 15 L16 9" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+      <text x="36" y="17" font-size="16" fill="#111111" font-weight="700">Order received</text>
+      <text x="290" y="17" font-size="13" fill="#888888" text-anchor="end">7:01 PM</text>
+    </g>
+
+    <!-- Step 2: Kitchen preparing (Current) -->
+    <g transform="translate(0, 48)">
+      <circle cx="12" cy="12" r="10" fill="#FAF9F5" stroke="#111111" stroke-width="2.5"/>
+      <circle cx="12" cy="12" r="4" fill="#111111"/>
+      <text x="36" y="17" font-size="16" fill="#111111" font-weight="700">Kitchen preparing</text>
+      <text x="290" y="17" font-size="13" fill="#111111" font-weight="600" text-anchor="end">In progress</text>
+    </g>
+
+    <!-- Step 3: Courier pickup -->
+    <g transform="translate(0, 96)">
+      <circle cx="12" cy="12" r="10" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="2"/>
+      <text x="36" y="17" font-size="16" fill="#888888" font-weight="500">Courier pickup</text>
+    </g>
+
+    <!-- Step 4: Delivered -->
+    <g transform="translate(0, 144)">
+      <circle cx="12" cy="12" r="10" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="2"/>
+      <text x="36" y="17" font-size="16" fill="#888888" font-weight="500">Delivered</text>
+    </g>
+  </g>
+
+  <!-- ACTIONS -->
+  <g transform="translate(24, 660)">
+    <!-- Track Order Button -->
+    <rect width="342" height="54" rx="14" fill="#111111"/>
+    <text x="171" y="33" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">Track my order</text>
+
+    <!-- View Receipt -->
+    <text x="171" y="86" font-size="15" fill="#111111" font-weight="600" text-anchor="middle">View receipt</text>
+  </g>
+
+  <!-- HOME BAR -->
+  <rect x="125" y="820" width="140" height="5" rx="2.5" fill="#111111"/>
+</svg>

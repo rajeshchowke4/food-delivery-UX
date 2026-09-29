@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844" style="background:#FFFFFF; font-family:-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;">
+  <rect width="390" height="844" rx="44" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="388" height="842" rx="43" fill="none" stroke="#E5E3DD" stroke-width="2"/>
+
+  <!-- DYNAMIC ISLAND -->
+  <rect x="135" y="12" width="120" height="30" rx="15" fill="#111111"/>
+  <text x="36" y="32" font-size="14" fill="#111111" font-weight="600">10:11</text>
+  <g transform="translate(325, 22)">
+    <path d="M0 10 L3 10 M5 8 L8 8 M10 5 L13 5 M15 2 L18 2" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+    <rect x="24" y="2" width="20" height="10" rx="3" fill="none" stroke="#111111" stroke-width="1.5"/>
+    <rect x="26" y="4" width="14" height="6" rx="1.5" fill="#111111"/>
+    <line x1="45" y1="5" x2="45" y2="9" stroke="#111111" stroke-width="1.5"/>
+  </g>
+
+  <!-- TOP HEADER -->
+  <g transform="translate(24, 60)">
+    <path d="M12 0 L2 10 L12 20" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="30" y="16" font-size="20" fill="#111111" font-weight="700">Siam Corner</text>
+    
+    <!-- Share & Bookmark -->
+    <circle cx="304" cy="10" r="14" fill="#F4F3EE"/>
+    <path d="M304 6 L304 14 M304 6 L301 9 M304 6 L307 9 M300 11 L300 15 L308 15 L308 11" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    
+    <circle cx="338" cy="10" r="14" fill="#F4F3EE"/>
+    <path d="M334 6 L342 6 L342 15 L338 12 L334 15 Z" fill="none" stroke="#111111" stroke-width="1.5"/>
+  </g>
+
+  <!-- RESTAURANT COVER BANNER -->
+  <g transform="translate(24, 104)">
+    <rect width="342" height="140" rx="16" fill="#F7F6F2" stroke="#E2DFD7" stroke-width="1"/>
+    <line x1="0" y1="0" x2="342" y2="140" stroke="#ECEAE4" stroke-width="1.5"/>
+    <line x1="0" y1="140" x2="342" y2="0" stroke="#ECEAE4" stroke-width="1.5"/>
+    <rect x="96" y="55" width="150" height="30" rx="6" fill="#FFFFFF" stroke="#DCD9D0" stroke-width="1"/>
+    <text x="171" y="74" font-size="12" fill="#555555" font-weight="600" text-anchor="middle" font-family="monospace">[RESTAURANT COVER]</text>
+  </g>
+
+  <!-- RESTAURANT INFO CARD -->
+  <g transform="translate(24, 260)">
+    <text x="0" y="20" font-size="22" fill="#111111" font-weight="800">Siam Corner</text>
+    <text x="0" y="44" font-size="14" fill="#555555">★ 4.8 (1,240 ratings) · Authentic Thai · 20–25 min</text>
+    <text x="0" y="66" font-size="14" fill="#111111" font-weight="600">$1.99 delivery fee · $15.00 min order</text>
+  </g>
+
+  <!-- CATEGORY TABS -->
+  <g transform="translate(24, 344)">
+    <text x="0" y="16" font-size="16" fill="#111111" font-weight="700">Popular</text>
+    <line x1="0" y1="26" x2="58" y2="26" stroke="#111111" stroke-width="2.5"/>
+    
+    <text x="86" y="16" font-size="16" fill="#777777" font-weight="500">Noodles</text>
+    <text x="176" y="16" font-size="16" fill="#777777" font-weight="500">Curries</text>
+    <text x="256" y="16" font-size="16" fill="#777777" font-weight="500">Appetizers</text>
+    <line x1="0" y1="28" x2="342" y2="28" stroke="#EAE8E1" stroke-width="1"/>
+  </g>
+
+  <!-- MENU LIST -->
+  <g transform="translate(24, 394)">
+    <!-- Item 1: Pad see ew -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="18" font-size="17" fill="#111111" font-weight="700">Pad see ew</text>
+      <text x="0" y="38" font-size="13" fill="#666666" width="220">
+        <tspan x="0" dy="0">Thick flat rice noodles, Chinese broccoli,</tspan>
+        <tspan x="0" dy="18">egg, sweet savory dark soy sauce.</tspan>
+      </text>
+      <text x="0" y="80" font-size="16" fill="#111111" font-weight="700">$14.50</text>
+      
+      <!-- Dish Image Placeholder -->
+      <rect x="252" y="4" width="90" height="84" rx="12" fill="#F4F3EE" stroke="#E2DFD7" stroke-width="1"/>
+      <line x1="252" y1="4" x2="342" y2="88" stroke="#ECEAE4" stroke-width="1"/>
+      <line x1="252" y1="88" x2="342" y2="4" stroke="#ECEAE4" stroke-width="1"/>
+      <circle cx="297" cy="46" r="14" fill="#EAE8E1"/>
+      <line x1="0" y1="104" x2="342" y2="104" stroke="#EAE8E1" stroke-width="1"/>
+    </g>
+
+    <!-- Item 2: Green curry -->
+    <g transform="translate(0, 120)">
+      <text x="0" y="18" font-size="17" fill="#111111" font-weight="700">Green curry</text>
+      <text x="0" y="38" font-size="13" fill="#666666">
+        <tspan x="0" dy="0">Fragrant coconut curry, bamboo shoots,</tspan>
+        <tspan x="0" dy="18">Thai basil, served with jasmine rice.</tspan>
+      </text>
+      <text x="0" y="80" font-size="16" fill="#111111" font-weight="700">$15.00</text>
+      
+      <rect x="252" y="4" width="90" height="84" rx="12" fill="#F4F3EE" stroke="#E2DFD7" stroke-width="1"/>
+      <line x1="252" y1="4" x2="342" y2="88" stroke="#ECEAE4" stroke-width="1"/>
+      <line x1="252" y1="88" x2="342" y2="4" stroke="#ECEAE4" stroke-width="1"/>
+      <circle cx="297" cy="46" r="14" fill="#EAE8E1"/>
+      <line x1="0" y1="104" x2="342" y2="104" stroke="#EAE8E1" stroke-width="1"/>
+    </g>
+
+    <!-- Item 3: Papaya salad -->
+    <g transform="translate(0, 240)">
+      <text x="0" y="18" font-size="17" fill="#111111" font-weight="700">Papaya salad (Som Tum)</text>
+      <text x="0" y="38" font-size="13" fill="#666666">
+        <tspan x="0" dy="0">Shredded green papaya, crushed peanuts,</tspan>
+        <tspan x="0" dy="18">green beans, spicy garlic lime dressing.</tspan>
+      </text>
+      <text x="0" y="80" font-size="16" fill="#111111" font-weight="700">$11.00</text>
+      
+      <rect x="252" y="4" width="90" height="84" rx="12" fill="#F4F3EE" stroke="#E2DFD7" stroke-width="1"/>
+      <line x1="252" y1="4" x2="342" y2="88" stroke="#ECEAE4" stroke-width="1"/>
+      <line x1="252" y1="88" x2="342" y2="4" stroke="#ECEAE4" stroke-width="1"/>
+      <circle cx="297" cy="46" r="14" fill="#EAE8E1"/>
+    </g>
+  </g>
+
+  <!-- HOME BAR -->
+  <rect x="125" y="820" width="140" height="5" rx="2.5" fill="#111111"/>
+</svg>

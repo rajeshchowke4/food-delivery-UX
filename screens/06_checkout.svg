@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844" style="background:#FFFFFF; font-family:-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;">
+  <rect width="390" height="844" rx="44" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="388" height="842" rx="43" fill="none" stroke="#E5E3DD" stroke-width="2"/>
+
+  <!-- DYNAMIC ISLAND -->
+  <rect x="135" y="12" width="120" height="30" rx="15" fill="#111111"/>
+  <text x="36" y="32" font-size="14" fill="#111111" font-weight="600">10:11</text>
+  <g transform="translate(325, 22)">
+    <path d="M0 10 L3 10 M5 8 L8 8 M10 5 L13 5 M15 2 L18 2" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+    <rect x="24" y="2" width="20" height="10" rx="3" fill="none" stroke="#111111" stroke-width="1.5"/>
+    <rect x="26" y="4" width="14" height="6" rx="1.5" fill="#111111"/>
+    <line x1="45" y1="5" x2="45" y2="9" stroke="#111111" stroke-width="1.5"/>
+  </g>
+
+  <!-- TOP HEADER -->
+  <g transform="translate(24, 60)">
+    <path d="M12 0 L2 10 L12 20" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="30" y="16" font-size="20" fill="#111111" font-weight="700">Checkout</text>
+    <circle cx="330" cy="10" r="2.5" fill="#111111"/>
+    <circle cx="338" cy="10" r="2.5" fill="#111111"/>
+    <circle cx="346" cy="10" r="2.5" fill="#111111"/>
+  </g>
+
+  <!-- CHECKPOINT CARDS -->
+  <g transform="translate(24, 104)">
+    <!-- Address Card -->
+    <g transform="translate(0, 0)">
+      <rect width="342" height="74" rx="12" fill="#FAF9F5" stroke="#EAE8E1" stroke-width="1"/>
+      <text x="16" y="26" font-size="11" fill="#777777" font-weight="700" font-family="monospace">DELIVERY ADDRESS</text>
+      <text x="16" y="52" font-size="16" fill="#111111" font-weight="700">18 Mercer St, Apt 4A</text>
+      <text x="326" y="44" font-size="13" fill="#111111" font-weight="600" text-anchor="end">Edit</text>
+    </g>
+
+    <!-- Delivery Time Card -->
+    <g transform="translate(0, 88)">
+      <rect width="342" height="74" rx="12" fill="#FAF9F5" stroke="#EAE8E1" stroke-width="1"/>
+      <text x="16" y="26" font-size="11" fill="#777777" font-weight="700" font-family="monospace">DELIVERY TIME</text>
+      <text x="16" y="52" font-size="16" fill="#111111" font-weight="700">ASAP · 20–25 min</text>
+      <text x="326" y="44" font-size="13" fill="#111111" font-weight="600" text-anchor="end">Edit</text>
+    </g>
+
+    <!-- Payment Card -->
+    <g transform="translate(0, 176)">
+      <rect width="342" height="74" rx="12" fill="#FAF9F5" stroke="#EAE8E1" stroke-width="1"/>
+      <text x="16" y="26" font-size="11" fill="#777777" font-weight="700" font-family="monospace">PAYMENT METHOD</text>
+      <text x="16" y="52" font-size="16" fill="#111111" font-weight="700">Visa ···· 4091</text>
+      <text x="326" y="44" font-size="13" fill="#111111" font-weight="600" text-anchor="end">Edit</text>
+    </g>
+
+    <!-- Delivery Note -->
+    <g transform="translate(0, 264)">
+      <text x="0" y="18" font-size="12" fill="#777777" font-weight="700" font-family="monospace">DELIVERY NOTE</text>
+      <rect y="28" width="342" height="52" rx="10" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="1"/>
+      <text x="16" y="60" font-size="14" fill="#333333">Leave at door, ring bell.</text>
+    </g>
+  </g>
+
+  <!-- BOTTOM TOTAL & PLACE ORDER -->
+  <g transform="translate(24, 630)">
+    <line x1="0" y1="0" x2="342" y2="0" stroke="#EAE8E1" stroke-width="1"/>
+    
+    <text x="0" y="36" font-size="16" fill="#555555">Order total (incl. tax &amp; tip)</text>
+    <text x="342" y="36" font-size="24" fill="#111111" font-weight="800" text-anchor="end">$37.14</text>
+
+    <!-- Place Order Button -->
+    <g transform="translate(0, 56)">
+      <rect width="342" height="54" rx="14" fill="#111111"/>
+      <text x="171" y="33" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">Place order</text>
+    </g>
+
+    <text x="171" y="132" font-size="11" fill="#888888" text-anchor="middle">By placing this order, you agree to the terms and privacy policy.</text>
+  </g>
+
+  <!-- HOME BAR -->
+  <rect x="125" y="820" width="140" height="5" rx="2.5" fill="#111111"/>
+</svg>

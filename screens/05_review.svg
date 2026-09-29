@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" width="390" height="844" style="background:#FFFFFF; font-family:-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;">
+  <rect width="390" height="844" rx="44" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="388" height="842" rx="43" fill="none" stroke="#E5E3DD" stroke-width="2"/>
+
+  <!-- DYNAMIC ISLAND -->
+  <rect x="135" y="12" width="120" height="30" rx="15" fill="#111111"/>
+  <text x="36" y="32" font-size="14" fill="#111111" font-weight="600">10:11</text>
+  <g transform="translate(325, 22)">
+    <path d="M0 10 L3 10 M5 8 L8 8 M10 5 L13 5 M15 2 L18 2" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+    <rect x="24" y="2" width="20" height="10" rx="3" fill="none" stroke="#111111" stroke-width="1.5"/>
+    <rect x="26" y="4" width="14" height="6" rx="1.5" fill="#111111"/>
+    <line x1="45" y1="5" x2="45" y2="9" stroke="#111111" stroke-width="1.5"/>
+  </g>
+
+  <!-- TOP HEADER -->
+  <g transform="translate(24, 60)">
+    <path d="M12 0 L2 10 L12 20" fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="30" y="16" font-size="20" fill="#111111" font-weight="700">Your cart</text>
+    <circle cx="338" cy="10" r="14" fill="#F4F3EE"/>
+    <path d="M333 5 L343 15 M343 5 L333 15" stroke="#111111" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- STORE & ARRIVAL BADGE -->
+  <g transform="translate(24, 104)">
+    <rect width="342" height="68" rx="12" fill="#FAF9F5" stroke="#EAE8E1" stroke-width="1"/>
+    <text x="16" y="28" font-size="18" fill="#111111" font-weight="800">Siam Corner</text>
+    <text x="16" y="50" font-size="13" fill="#555555">⏱ Arrival in 20–25 min · 18 Mercer Street</text>
+  </g>
+
+  <!-- ITEMS LIST -->
+  <g transform="translate(24, 194)">
+    <!-- Item 1 -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="342" height="76" rx="10" fill="#FFFFFF" stroke="#EAE8E1" stroke-width="1"/>
+      <text x="16" y="28" font-size="16" fill="#111111" font-weight="700">1x Pad see ew</text>
+      <text x="326" y="28" font-size="16" fill="#111111" font-weight="700" text-anchor="end">$14.50</text>
+      <text x="16" y="52" font-size="13" fill="#666666">Chicken, regular spice</text>
+      <text x="326" y="52" font-size="13" fill="#111111" font-weight="600" text-anchor="end" text-decoration="underline">Edit</text>
+    </g>
+
+    <!-- Item 2 -->
+    <g transform="translate(0, 88)">
+      <rect x="0" y="0" width="342" height="76" rx="10" fill="#FFFFFF" stroke="#EAE8E1" stroke-width="1"/>
+      <text x="16" y="28" font-size="16" fill="#111111" font-weight="700">1x Green curry</text>
+      <text x="326" y="28" font-size="16" fill="#111111" font-weight="700" text-anchor="end">$15.00</text>
+      <text x="16" y="52" font-size="13" fill="#666666">Tofu, jasmine rice included</text>
+      <text x="326" y="52" font-size="13" fill="#111111" font-weight="600" text-anchor="end" text-decoration="underline">Edit</text>
+    </g>
+
+    <!-- Add Item Button -->
+    <g transform="translate(0, 180)">
+      <rect width="342" height="44" rx="10" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="1"/>
+      <text x="171" y="27" font-size="14" fill="#111111" font-weight="600" text-anchor="middle">+ Add another item</text>
+    </g>
+  </g>
+
+  <!-- ITEMIZED COST BREAKDOWN -->
+  <g transform="translate(24, 460)">
+    <line x1="0" y1="0" x2="342" y2="0" stroke="#EAE8E1" stroke-width="1"/>
+    
+    <!-- Subtotal -->
+    <text x="0" y="32" font-size="15" fill="#555555">Subtotal</text>
+    <text x="342" y="32" font-size="15" fill="#111111" font-weight="600" text-anchor="end">$29.50</text>
+
+    <!-- Delivery & Service -->
+    <text x="0" y="60" font-size="15" fill="#555555">Delivery + service fees</text>
+    <text x="342" y="60" font-size="15" fill="#111111" font-weight="600" text-anchor="end">$3.25</text>
+
+    <!-- Estimated Taxes -->
+    <text x="0" y="88" font-size="15" fill="#555555">Estimated taxes</text>
+    <text x="342" y="88" font-size="15" fill="#111111" font-weight="600" text-anchor="end">$2.39</text>
+
+    <line x1="0" y1="108" x2="342" y2="108" stroke="#EAE8E1" stroke-width="1"/>
+
+    <!-- Total -->
+    <text x="0" y="136" font-size="18" fill="#111111" font-weight="800">Estimated total</text>
+    <text x="342" y="136" font-size="20" fill="#111111" font-weight="800" text-anchor="end">$32.75</text>
+  </g>
+
+  <!-- STICKY BOTTOM BUTTON -->
+  <g transform="translate(24, 730)">
+    <rect width="342" height="54" rx="14" fill="#111111"/>
+    <text x="171" y="33" font-size="16" fill="#FFFFFF" font-weight="700" text-anchor="middle">Go to checkout · $32.75</text>
+  </g>
+
+  <!-- HOME BAR -->
+  <rect x="125" y="820" width="140" height="5" rx="2.5" fill="#111111"/>
+</svg>
