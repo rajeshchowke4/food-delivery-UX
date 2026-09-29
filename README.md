@@ -92,3 +92,234 @@ Checkout
 Confirm
    ↓
 Track
+
+This flow helps users move from restaurant discovery to delivery without unnecessary complexity.
+
+📱 Designed Screens
+
+The project includes the following mobile screens:
+
+1. 🏠 Discover
+Location selection
+Restaurant search
+Restaurant categories
+Popular restaurants
+Nearby restaurants
+Delivery information
+2. 🔎 Search
+
+Users can search for restaurants or dishes and filter the results.
+
+3. 🍽️ Restaurant Details
+
+Displays:
+
+Restaurant name
+Rating
+Delivery information
+Menu categories
+Food items
+Prices
+Item details
+4. 🥘 Food Customization
+
+Users can customize their selected food item.
+
+Examples include:
+
+Selecting food options
+Choosing quantities
+Adding special requests
+Viewing item price
+5. 🛒 Cart
+
+The cart provides a summary of:
+
+Selected items
+Item prices
+Delivery fees
+Service fees
+Estimated taxes
+Total amount
+6. 💳 Checkout
+
+Checkout allows users to review:
+
+Delivery address
+Delivery time
+Payment method
+Order total
+Delivery instructions
+7. ✅ Order Confirmation
+
+After placing an order, the user receives:
+
+Order confirmation
+Estimated arrival time
+Order status
+Option to track the order
+8. 📍 Order Tracking
+
+The tracking screen provides real-time-style order progress such as:
+
+Order received
+      ↓
+Kitchen preparing
+      ↓
+Courier pickup
+      ↓
+Delivered
+
+The design also provides courier information and delivery details.
+
+🧩 UX Design Process
+
+The project follows a user-centered design process.
+
+Research
+   ↓
+Define
+   ↓
+Ideate
+   ↓
+Prototype
+   ↓
+Test
+Research
+
+Identify user needs, expectations, and pain points related to food ordering.
+
+Define
+
+Define the core design challenge and user requirements.
+
+Ideate
+
+Explore possible solutions for restaurant discovery, comparison, customization, checkout, and tracking.
+
+Prototype
+
+Create low-fidelity wireframes and develop the complete mobile ordering flow.
+
+Test
+
+Review the experience and identify opportunities for improvement.
+
+🖼️ Wireframe Development
+
+The project includes a low-fidelity wireframe flow covering:
+
+Discover
+Compare
+Choose
+Customize
+Review
+Checkout
+Confirm
+Track
+
+The wireframes were used to validate the overall structure and user journey before moving toward a more detailed interface.
+
+🎨 Design Features
+Restaurant Discovery
+
+Users can quickly browse nearby restaurants and discover popular options.
+
+Restaurant Comparison
+
+Important information such as:
+
+Ratings
+Delivery time
+Price
+Restaurant information
+
+is presented to help users make decisions.
+
+Food Customization
+
+Users can select available options and add special requests before adding an item to the cart.
+
+Transparent Checkout
+
+The checkout experience clearly presents the order total and related fees.
+
+Order Tracking
+
+Users can follow the progress of their order from restaurant confirmation through delivery.
+
+🛠️ Tools Used
+Figma — Wireframing and UI/UX design
+Figma Prototype — User-flow visualization
+UX Research — User needs and pain-point identification
+Wireframing — Early-stage interface planning
+🎯 Expected Outcome
+
+The project demonstrates how an early-stage mobile application can be planned using UX research, personas, user flows, wireframes, and prototyping.
+
+The final experience focuses on making the food-ordering journey:
+
+Simple
+Clear
+Predictable
+Easy to navigate
+Informative
+📸 Design Preview
+
+Add your exported design screenshots to the repository and display them here.
+
+Example:
+
+![Food Delivery App Design](assets/screenshots/food-delivery-preview.png)
+🚀 Future Improvements
+
+Possible future improvements include:
+
+Interactive high-fidelity prototype
+Restaurant filtering and sorting
+User account and profile screens
+Favorites and saved restaurants
+Order history
+Live delivery location
+Push notifications
+Accessibility improvements
+Usability testing with real users
+👨‍💻 Designer
+
+Rajesh Chowke
+
+Junior Full-Stack Developer & UI/UX Enthusiast
+
+Skills
+Figma
+UI/UX Design
+Wireframing
+User Flow Design
+HTML
+CSS
+JavaScript
+React.js
+Node.js
+MySQL
+MongoDB
+
+📌 Project Status
+
+Status: 🎨 UX/UI Design & Wireframing
+
+The project currently focuses on the planning, wireframing, and mobile user experience of a food-delivery application.
+
+⭐ If you find this project useful or interesting, consider giving the repository a star!
+
+
+### Recommended GitHub repository name
+
+You could name the repository:
+
+**`food-delivery-mobile-ux-design`**
+
+or
+
+**`food-delivery-app-ui-ux`**
+
+For this particular file, I would use **`food-delivery-mobile-ux-design`** because the uploaded design is primarily a **UX planning, wireframing, and mobile UI project**, rather than a coded application.
