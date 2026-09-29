@@ -92,7 +92,6 @@ Checkout
 Confirm
    ↓
 Track
-
 This flow helps users move from restaurant discovery to delivery without unnecessary complexity.
 
 📱 Designed Screens
@@ -308,18 +307,3 @@ MongoDB
 Status: 🎨 UX/UI Design & Wireframing
 
 The project currently focuses on the planning, wireframing, and mobile user experience of a food-delivery application.
-
-⭐ If you find this project useful or interesting, consider giving the repository a star!
-
-
-### Recommended GitHub repository name
-
-You could name the repository:
-
-**`food-delivery-mobile-ux-design`**
-
-or
-
-**`food-delivery-app-ui-ux`**
-
-For this particular file, I would use **`food-delivery-mobile-ux-design`** because the uploaded design is primarily a **UX planning, wireframing, and mobile UI project**, rather than a coded application.
