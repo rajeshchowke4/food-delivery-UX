@@ -332,22 +332,6 @@ Add your exported design screenshots to the repository.
 ![Food Delivery App Design](assets/screenshots/food-delivery-preview.png)
 ```
 
-You can organize your assets like this:
-
-```text
-food-delivery-mobile-ux-design/
-│
-├── README.md
-│
-├── assets/
-│   └── screenshots/
-│       └── food-delivery-preview.png
-│
-├── wireframes/
-│
-└── prototype/
-```
-
 ---
 
 ## 🚀 Future Improvements
