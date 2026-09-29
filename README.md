@@ -322,16 +322,6 @@ The final experience focuses on making the food-ordering journey:
 
 ---
 
-## 📸 Design Preview
-
-Add your exported design screenshots to the repository.
-
-### Example
-
-```markdown
-![Food Delivery App Design](assets/screenshots/food-delivery-preview.png)
-```
-
 ---
 
 ## 🚀 Future Improvements
