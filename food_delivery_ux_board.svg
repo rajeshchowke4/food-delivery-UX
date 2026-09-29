@@ -1,0 +1,1154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1960" width="1600" height="1960" style="background:#FAF9F5; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <style>
+      .mono { font-family: 'SF Mono', 'Roboto Mono', 'Cascadia Code', Consolas, monospace; }
+      .serif { font-family: 'Newsreader', 'Playfair Display', Georgia, serif; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif; }
+      .bold { font-weight: 700; }
+      .medium { font-weight: 500; }
+      .regular { font-weight: 400; }
+      .light { font-weight: 300; }
+    </style>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="1600" height="1960" fill="#FAF9F5"/>
+
+  <!-- ==================== HEADER ==================== -->
+  <g id="Header" transform="translate(60, 45)">
+    <!-- Top Sprint Pill -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="220" height="24" rx="12" fill="#EAE8E1"/>
+      <circle cx="12" cy="12" r="10" fill="#111111"/>
+      <text x="12" y="15.5" font-size="10" fill="#FFFFFF" text-anchor="middle" font-weight="700" class="mono">01</text>
+      <text x="30" y="15.5" font-size="9.5" fill="#333333" font-weight="700" letter-spacing="0.5" class="mono">MOBILE UX PLANNING BOARD · SPRINT 01</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="65" font-size="38" fill="#111111" font-weight="800" letter-spacing="-0.8" class="sans">Dinner, without the guesswork.</text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="98" font-size="13" fill="#555555" class="sans" width="820">
+      <tspan x="0" dy="0">A low-fidelity end-to-end food-delivery experience that helps hungry people choose quickly, understand the total cost, and know</tspan>
+      <tspan x="0" dy="18">exactly what happens after checkout.</tspan>
+    </text>
+
+    <!-- Metadata Badges -->
+    <g transform="translate(0, 142)">
+      <!-- Badge 1 -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="125" height="20" rx="10" fill="none" stroke="#DCD9D0" stroke-width="1"/>
+        <text x="10" y="13" font-size="8.5" fill="#777777" class="mono">Audience</text>
+        <line x1="56" y1="4" x2="56" y2="16" stroke="#E2DFD7" stroke-width="1"/>
+        <text x="64" y="13" font-size="8.5" fill="#111111" font-weight="600" class="mono">urban diners</text>
+      </g>
+      <!-- Badge 2 -->
+      <g transform="translate(133, 0)">
+        <rect x="0" y="0" width="100" height="20" rx="10" fill="none" stroke="#DCD9D0" stroke-width="1"/>
+        <text x="10" y="13" font-size="8.5" fill="#777777" class="mono">Platform</text>
+        <line x1="53" y1="4" x2="53" y2="16" stroke="#E2DFD7" stroke-width="1"/>
+        <text x="61" y="13" font-size="8.5" fill="#111111" font-weight="600" class="mono">mobile</text>
+      </g>
+      <!-- Badge 3 -->
+      <g transform="translate(241, 0)">
+        <rect x="0" y="0" width="158" height="20" rx="10" fill="none" stroke="#DCD9D0" stroke-width="1"/>
+        <text x="10" y="13" font-size="8.5" fill="#777777" class="mono">Scope</text>
+        <line x1="42" y1="4" x2="42" y2="16" stroke="#E2DFD7" stroke-width="1"/>
+        <text x="50" y="13" font-size="8.5" fill="#111111" font-weight="600" class="mono">discovery → tracking</text>
+      </g>
+      <!-- Badge 4 -->
+      <g transform="translate(407, 0)">
+        <rect x="0" y="0" width="112" height="20" rx="10" fill="none" stroke="#DCD9D0" stroke-width="1"/>
+        <text x="10" y="13" font-size="8.5" fill="#777777" class="mono">Fidelity</text>
+        <line x1="48" y1="4" x2="48" y2="16" stroke="#E2DFD7" stroke-width="1"/>
+        <text x="56" y="13" font-size="8.5" fill="#111111" font-weight="600" class="mono">planning</text>
+      </g>
+    </g>
+
+    <!-- Top Right: Design Challenge Card -->
+    <g transform="translate(1040, 0)">
+      <rect x="0" y="0" width="440" height="152" fill="#FAF9F5" stroke="#111111" stroke-width="1.2"/>
+      <!-- Header -->
+      <text x="18" y="24" font-size="9" fill="#111111" font-weight="700" letter-spacing="1" class="mono">DESIGN CHALLENGE</text>
+      <!-- Scale Icon -->
+      <path d="M410 16 L410 26 M404 19 L416 19 M402 24 L406 24 M414 24 L418 24" stroke="#111111" stroke-width="1.5" stroke-linecap="round"/>
+      
+      <!-- Big Question -->
+      <text x="18" y="56" font-size="16.5" fill="#111111" font-weight="600" class="sans" width="400">
+        <tspan x="18" dy="0">How can ordering feel fast without hiding</tspan>
+        <tspan x="18" dy="22">the details people need to trust the</tspan>
+        <tspan x="18" dy="22">decision?</tspan>
+      </text>
+
+      <!-- Subtext / constraint -->
+      <text x="18" y="132" font-size="9" fill="#666666" class="mono">Constraint: support a first-time order in under 4 minutes, with price</text>
+      <text x="18" y="143" font-size="9" fill="#666666" class="mono">and delivery confidence intact.</text>
+    </g>
+  </g>
+
+  <!-- ==================== SECTION 1: RESEARCH FOUNDATIONS ==================== -->
+  <g id="Research-Foundations" transform="translate(60, 240)">
+    <text x="0" y="0" font-size="9" fill="#777777" font-weight="700" letter-spacing="1" class="mono">RESEARCH FOUNDATIONS</text>
+    <text x="0" y="24" font-size="20" fill="#111111" font-weight="700" class="sans">Start with the decision, not the interface.</text>
+    <text x="1480" y="22" font-size="10" fill="#777777" text-anchor="end" class="mono">directional synthesis · validate before build</text>
+
+    <!-- 4 Cards Row -->
+    <g transform="translate(0, 42)">
+      <!-- Card 1: What we believe -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="355" height="135" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="1"/>
+        <text x="16" y="20" font-size="8.5" fill="#777777" font-weight="700" class="mono">01 · ASSUMPTIONS</text>
+        <!-- Lightbulb Icon -->
+        <circle cx="334" cy="18" r="4" fill="none" stroke="#777777" stroke-width="1.2"/>
+        <line x1="334" y1="22" x2="334" y2="24" stroke="#777777" stroke-width="1.2"/>
+
+        <text x="16" y="44" font-size="14" fill="#111111" font-weight="700" class="sans">What we believe</text>
+        <circle cx="20" cy="62" r="1.5" fill="#111111"/>
+        <text x="28" y="65" font-size="10" fill="#444444" class="sans">Most orders begin with a craving, not a restaurant.</text>
+        <circle cx="20" cy="84" r="1.5" fill="#111111"/>
+        <text x="28" y="87" font-size="10" fill="#444444" class="sans">Delivery time and total cost drive the shortlist.</text>
+        <circle cx="20" cy="106" r="1.5" fill="#111111"/>
+        <text x="28" y="109" font-size="10" fill="#444444" class="sans">People compare 2–3 menus before committing.</text>
+      </g>
+
+      <!-- Card 2: What must be easy -->
+      <g transform="translate(375, 0)">
+        <rect x="0" y="0" width="355" height="135" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="1"/>
+        <text x="16" y="20" font-size="8.5" fill="#777777" font-weight="700" class="mono">02 · USER NEEDS</text>
+        <!-- Heart Icon -->
+        <path d="M330 16 C330 14, 333 13, 334 15 C335 13, 338 14, 338 16 C338 19, 334 21, 334 21 C334 21, 330 19, 330 16 Z" fill="none" stroke="#777777" stroke-width="1.2"/>
+
+        <text x="16" y="44" font-size="14" fill="#111111" font-weight="700" class="sans">What must be easy</text>
+        <circle cx="20" cy="62" r="1.5" fill="#111111"/>
+        <text x="28" y="65" font-size="10" fill="#444444" class="sans">Scan relevant options without opening every menu.</text>
+        <circle cx="20" cy="84" r="1.5" fill="#111111"/>
+        <text x="28" y="87" font-size="10" fill="#444444" class="sans">See fees, ETA, and item requirements early.</text>
+        <circle cx="20" cy="106" r="1.5" fill="#111111"/>
+        <text x="28" y="109" font-size="10" fill="#444444" class="sans">Recover easily when an item or address changes.</text>
+      </g>
+
+      <!-- Card 3: What breaks trust -->
+      <g transform="translate(750, 0)">
+        <rect x="0" y="0" width="355" height="135" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="1"/>
+        <text x="16" y="20" font-size="8.5" fill="#777777" font-weight="700" class="mono">03 · PAIN POINTS</text>
+        <!-- Warning Triangle Icon -->
+        <polygon points="334,13 339,22 329,22" fill="none" stroke="#777777" stroke-width="1.2"/>
+
+        <text x="16" y="44" font-size="14" fill="#111111" font-weight="700" class="sans">What breaks trust</text>
+        <circle cx="20" cy="62" r="1.5" fill="#111111"/>
+        <text x="28" y="65" font-size="10" fill="#444444" class="sans">Unexpected fees appear late in checkout.</text>
+        <circle cx="20" cy="84" r="1.5" fill="#111111"/>
+        <text x="28" y="87" font-size="10" fill="#444444" class="sans">Dense menus make dietary checks slow.</text>
+        <circle cx="20" cy="106" r="1.5" fill="#111111"/>
+        <text x="28" y="109" font-size="10" fill="#444444" class="sans">Vague post-order status creates uncertainty.</text>
+      </g>
+
+      <!-- Card 4: What we'll design for -->
+      <g transform="translate(1125, 0)">
+        <rect x="0" y="0" width="355" height="135" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="1"/>
+        <text x="16" y="20" font-size="8.5" fill="#777777" font-weight="700" class="mono">04 · KEY FOCUSES</text>
+        <!-- Search Icon -->
+        <circle cx="333" cy="17" r="3.5" fill="none" stroke="#777777" stroke-width="1.2"/>
+        <line x1="336" y1="20" x2="339" y2="23" stroke="#777777" stroke-width="1.2"/>
+
+        <text x="16" y="44" font-size="14" fill="#111111" font-weight="700" class="sans">What we'll design for</text>
+        <circle cx="20" cy="62" r="1.5" fill="#111111"/>
+        <text x="28" y="65" font-size="10" fill="#444444" class="sans">Lead with decision-making signals, not promotions.</text>
+        <circle cx="20" cy="84" r="1.5" fill="#111111"/>
+        <text x="28" y="87" font-size="10" fill="#444444" class="sans">Keep a persistent, itemized cost trail.</text>
+        <circle cx="20" cy="106" r="1.5" fill="#111111"/>
+        <text x="28" y="109" font-size="10" fill="#444444" class="sans">Make each delivery state specific and actionable.</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== SECTION 2: TWO PEOPLE TO DESIGN WITH ==================== -->
+  <g id="Personas" transform="translate(60, 445)">
+    <text x="0" y="0" font-size="9" fill="#777777" font-weight="700" letter-spacing="1" class="mono">TWO PEOPLE TO DESIGN WITH</text>
+
+    <g transform="translate(0, 16)">
+      <!-- Persona 1: Maya Patel -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="730" height="152" fill="#FAF9F5" stroke="#111111" stroke-width="1.2"/>
+        
+        <!-- Left Column: Identity -->
+        <circle cx="48" cy="46" r="22" fill="#EAE8E1" stroke="#D0CDC4" stroke-width="1"/>
+        <text x="48" y="52" font-size="13" fill="#111111" font-weight="700" text-anchor="middle" class="sans">MP</text>
+        
+        <text x="86" y="40" font-size="16" fill="#111111" font-weight="700" class="sans">Maya Patel, 29</text>
+        <text x="86" y="58" font-size="10" fill="#777777" class="mono">Busy renter · orders 2–4x / week</text>
+        
+        <!-- Quote -->
+        <text x="26" y="102" font-size="12" fill="#111111" font-style="italic" class="serif">“Show me what will arrive soon and</text>
+        <text x="26" y="118" font-size="12" fill="#111111" font-style="italic" class="serif">what I’ll actually pay.”</text>
+
+        <!-- Vertical Divider -->
+        <line x1="280" y1="16" x2="280" y2="136" stroke="#E2DFD7" stroke-width="1"/>
+
+        <!-- Right Column: Goals, Behaviors, Friction -->
+        <g transform="translate(298, 22)">
+          <text x="0" y="10" font-size="8" fill="#777777" font-weight="700" class="mono">GOALS</text>
+          <text x="0" y="24" font-size="10.5" fill="#222222" class="sans">Get a reliable dinner to her apartment between calls; reorder favorites with minimal effort.</text>
+          
+          <text x="0" y="50" font-size="8" fill="#777777" font-weight="700" class="mono">BEHAVIORS</text>
+          <text x="0" y="64" font-size="10.5" fill="#222222" class="sans">Filters by 30 min or less, checks ratings, compares the final total, saves vegetarian dishes.</text>
+          
+          <text x="0" y="90" font-size="8" fill="#777777" font-weight="700" class="mono">PRIMARY FRICTION</text>
+          <text x="0" y="104" font-size="10.5" fill="#222222" class="sans">Fees that change at checkout and menus with unclear dietary labels.</text>
+        </g>
+      </g>
+
+      <!-- Persona 2: Daniel Ruiz -->
+      <g transform="translate(750, 0)">
+        <rect x="0" y="0" width="730" height="152" fill="#FAF9F5" stroke="#111111" stroke-width="1.2"/>
+        
+        <!-- Left Column: Identity -->
+        <circle cx="48" cy="46" r="22" fill="#EAE8E1" stroke="#D0CDC4" stroke-width="1"/>
+        <text x="48" y="52" font-size="13" fill="#111111" font-weight="700" text-anchor="middle" class="sans">DR</text>
+        
+        <text x="86" y="40" font-size="16" fill="#111111" font-weight="700" class="sans">Daniel Ruiz, 41</text>
+        <text x="86" y="58" font-size="10" fill="#777777" class="mono">Parent of two · weekly family order</text>
+        
+        <!-- Quote -->
+        <text x="26" y="102" font-size="12" fill="#111111" font-style="italic" class="serif">“I need everyone’s food in one</text>
+        <text x="26" y="118" font-size="12" fill="#111111" font-style="italic" class="serif">order—and no surprises.”</text>
+
+        <!-- Vertical Divider -->
+        <line x1="280" y1="16" x2="280" y2="136" stroke="#E2DFD7" stroke-width="1"/>
+
+        <!-- Right Column: Goals, Behaviors, Friction -->
+        <g transform="translate(298, 22)">
+          <text x="0" y="10" font-size="8" fill="#777777" font-weight="700" class="mono">GOALS</text>
+          <text x="0" y="24" font-size="10.5" fill="#222222" class="sans">Build a family-friendly order, customize items safely, and time arrival around bedtime.</text>
+          
+          <text x="0" y="50" font-size="8" fill="#777777" font-weight="700" class="mono">BEHAVIORS</text>
+          <text x="0" y="64" font-size="10.5" fill="#222222" class="sans">Browses by cuisine, reads item details, adds notes, and tracks every delivery milestone.</text>
+          
+          <text x="0" y="90" font-size="8" fill="#777777" font-weight="700" class="mono">PRIMARY FRICTION</text>
+          <text x="0" y="104" font-size="10.5" fill="#222222" class="sans">Losing cart edits, unclear substitutions, and a tracker that only says ‘on the way.’</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== SECTION 3: PRIMARY USER FLOW ==================== -->
+  <g id="Primary-User-Flow" transform="translate(60, 645)">
+    <text x="0" y="0" font-size="9" fill="#777777" font-weight="700" letter-spacing="1" class="mono">PRIMARY USER FLOW</text>
+    <text x="0" y="24" font-size="20" fill="#111111" font-weight="700" class="sans">One clear path from hunger to handoff.</text>
+    
+    <!-- Legend Top Right -->
+    <rect x="1190" y="14" width="10" height="10" fill="#111111"/>
+    <text x="1208" y="23" font-size="9.5" fill="#555555" class="mono">Primary path · back/edit allowed before payment</text>
+
+    <!-- 8 Step Nodes -->
+    <g transform="translate(0, 46)">
+      <!-- Step 01 -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="162" height="76" fill="#FAF9F5" stroke="#111111" stroke-width="1.2"/>
+        <circle cx="22" cy="20" r="8" fill="#111111"/>
+        <text x="22" y="23.5" font-size="8.5" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="mono">01</text>
+        <text x="16" y="46" font-size="13" fill="#111111" font-weight="700" class="sans">Discover</text>
+        <text x="16" y="62" font-size="9.5" fill="#666666" class="sans">Browse nearby picks</text>
+      </g>
+      <text x="173" y="42" font-size="15" fill="#111111" text-anchor="middle">→</text>
+
+      <!-- Step 02 -->
+      <g transform="translate(188, 0)">
+        <rect x="0" y="0" width="162" height="76" fill="#FAF9F5" stroke="#111111" stroke-width="1.2"/>
+        <circle cx="22" cy="20" r="8" fill="#111111"/>
+        <text x="22" y="23.5" font-size="8.5" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="mono">02</text>
+        <text x="16" y="46" font-size="13" fill="#111111" font-weight="700" class="sans">Compare</text>
+        <text x="16" y="62" font-size="9.5" fill="#666666" class="sans">Filter ETA + cuisine</text>
+      </g>
+      <text x="361" y="42" font-size="15" fill="#111111" text-anchor="middle">→</text>
+
+      <!-- Step 03 -->
+      <g transform="translate(376, 0)">
+        <rect x="0" y="0" width="162" height="76" fill="#FAF9F5" stroke="#111111" stroke-width="1.2"/>
+        <circle cx="22" cy="20" r="8" fill="#111111"/>
+        <text x="22" y="23.5" font-size="8.5" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="mono">03</text>
+        <text x="16" y="46" font-size="13" fill="#111111" font-weight="700" class="sans">Choose</text>
+        <text x="16" y="62" font-size="9.5" fill="#666666" class="sans">Open restaurant</text>
+      </g>
+      <text x="549" y="42" font-size="15" fill="#111111" text-anchor="middle">→</text>
+
+      <!-- Step 04 -->
+      <g transform="translate(564, 0)">
+        <rect x="0" y="0" width="162" height="76" fill="#FAF9F5" stroke="#111111" stroke-width="1.2"/>
+        <circle cx="22" cy="20" r="8" fill="#111111"/>
+        <text x="22" y="23.5" font-size="8.5" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="mono">04</text>
+        <text x="16" y="46" font-size="13" fill="#111111" font-weight="700" class="sans">Customize</text>
+        <text x="16" y="62" font-size="9.5" fill="#666666" class="sans">Select item options</text>
+      </g>
+      <text x="737" y="42" font-size="15" fill="#111111" text-anchor="middle">→</text>
+
+      <!-- Step 05 -->
+      <g transform="translate(752, 0)">
+        <rect x="0" y="0" width="162" height="76" fill="#FAF9F5" stroke="#111111" stroke-width="1.2"/>
+        <circle cx="22" cy="20" r="8" fill="#111111"/>
+        <text x="22" y="23.5" font-size="8.5" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="mono">05</text>
+        <text x="16" y="46" font-size="13" fill="#111111" font-weight="700" class="sans">Review</text>
+        <text x="16" y="62" font-size="9.5" fill="#666666" class="sans">Edit cart + totals</text>
+      </g>
+      <text x="925" y="42" font-size="15" fill="#111111" text-anchor="middle">→</text>
+
+      <!-- Step 06 -->
+      <g transform="translate(940, 0)">
+        <rect x="0" y="0" width="162" height="76" fill="#FAF9F5" stroke="#111111" stroke-width="1.2"/>
+        <circle cx="22" cy="20" r="8" fill="#111111"/>
+        <text x="22" y="23.5" font-size="8.5" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="mono">06</text>
+        <text x="16" y="46" font-size="13" fill="#111111" font-weight="700" class="sans">Checkout</text>
+        <text x="16" y="62" font-size="9.5" fill="#666666" class="sans">Address + payment</text>
+      </g>
+      <text x="1113" y="42" font-size="15" fill="#111111" text-anchor="middle">→</text>
+
+      <!-- Step 07 -->
+      <g transform="translate(1128, 0)">
+        <rect x="0" y="0" width="162" height="76" fill="#FAF9F5" stroke="#111111" stroke-width="1.2"/>
+        <circle cx="22" cy="20" r="8" fill="#111111"/>
+        <text x="22" y="23.5" font-size="8.5" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="mono">07</text>
+        <text x="16" y="46" font-size="13" fill="#111111" font-weight="700" class="sans">Confirm</text>
+        <text x="16" y="62" font-size="9.5" fill="#666666" class="sans">See receipt + ETA</text>
+      </g>
+      <text x="1301" y="42" font-size="15" fill="#111111" text-anchor="middle">→</text>
+
+      <!-- Step 08 (Active) -->
+      <g transform="translate(1316, 0)">
+        <rect x="0" y="0" width="162" height="76" fill="#111111"/>
+        <circle cx="22" cy="20" r="8" fill="#FFFFFF"/>
+        <text x="22" y="23.5" font-size="8.5" fill="#111111" font-weight="700" text-anchor="middle" class="mono">08</text>
+        <text x="16" y="46" font-size="13" fill="#FFFFFF" font-weight="700" class="sans">Track</text>
+        <text x="16" y="62" font-size="9.5" fill="#AAAAAA" class="sans">Follow live progress</text>
+      </g>
+    </g>
+
+    <!-- Sub note with recovery rule -->
+    <text x="0" y="146" font-size="10" fill="#555555" class="sans">
+      <tspan font-family="monospace">↳</tspan> Recovery rule: preserve selections when users return from item details, cart, or checkout. If unavailable, explain why and offer the closest replacement.
+    </text>
+  </g>
+
+  <!-- ==================== SECTION 4: LO-FI WIREFRAME FLOW · V0.1 ==================== -->
+  <g id="Wireframe-Flow" transform="translate(60, 835)">
+    <text x="0" y="0" font-size="9" fill="#777777" font-weight="700" letter-spacing="1" class="mono">LO-FI WIREFRAME FLOW · V0.1</text>
+    <text x="0" y="24" font-size="20" fill="#111111" font-weight="700" class="sans">The end-to-end ordering experience</text>
+
+    <!-- Legend Top Right -->
+    <g transform="translate(1220, 12)">
+      <rect x="0" y="2" width="14" height="10" fill="none" stroke="#999999" stroke-width="1"/>
+      <text x="18" y="11" font-size="9.5" fill="#666666" class="mono">content block</text>
+      
+      <rect x="95" y="2" width="14" height="10" fill="#EAE8E1" stroke="#D0CDC4" stroke-width="1"/>
+      <text x="113" y="11" font-size="9.5" fill="#666666" class="mono">interactive</text>
+      
+      <rect x="180" y="2" width="14" height="10" fill="#111111"/>
+      <text x="198" y="11" font-size="9.5" fill="#666666" class="mono">primary action</text>
+    </g>
+
+    <!-- 8 Mobile Wireframes Row -->
+    <g transform="translate(0, 44)">
+
+      <!-- SCREEN 01: DISCOVER -->
+      <g id="Screen-01-Discover" transform="translate(0, 0)">
+        <!-- Step Header Tag -->
+        <circle cx="8" cy="7" r="6" fill="#111111"/>
+        <text x="8" y="9.5" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="mono">01</text>
+        <text x="20" y="10" font-size="10" fill="#111111" font-weight="700" class="sans">Discover</text>
+        
+        <!-- Phone Outline -->
+        <rect x="0" y="22" width="168" height="340" rx="16" fill="#FFFFFF" stroke="#111111" stroke-width="1.2"/>
+        <!-- Notch / Island -->
+        <rect x="62" y="28" width="44" height="4" rx="2" fill="#111111"/>
+        
+        <!-- Status Bar -->
+        <text x="14" y="38" font-size="7.5" fill="#111111" font-weight="600" class="sans">10:11</text>
+        <circle cx="152" cy="36" r="2.5" fill="#111111"/>
+        
+        <!-- Top App Bar: Address -->
+        <g transform="translate(10, 48)">
+          <path d="M4 6 L7 2 L10 6 Z" fill="#111111"/>
+          <text x="14" y="8" font-size="8.5" fill="#111111" font-weight="700" class="sans">18 Mercer Street</text>
+          <text x="88" y="7" font-size="7" fill="#777777">▼</text>
+          <!-- User Avatar -->
+          <circle cx="140" cy="5" r="6" fill="none" stroke="#111111" stroke-width="1"/>
+          <circle cx="140" cy="3.5" r="2.5" fill="#111111"/>
+        </g>
+
+        <!-- Search Bar -->
+        <g transform="translate(10, 68)">
+          <rect x="0" y="0" width="148" height="20" rx="4" fill="#F4F3EE" stroke="#E2DFD7" stroke-width="1"/>
+          <circle cx="10" cy="10" r="3" fill="none" stroke="#777777" stroke-width="1"/>
+          <line x1="12" y1="12" x2="15" y2="15" stroke="#777777" stroke-width="1"/>
+          <text x="20" y="13" font-size="7.5" fill="#888888" class="sans">Search dishes, restaurants...</text>
+        </g>
+
+        <!-- Hero Placeholder Box -->
+        <g transform="translate(10, 96)">
+          <rect x="0" y="0" width="148" height="60" fill="#F4F3EE" stroke="#E2DFD7" stroke-width="1"/>
+          <line x1="0" y1="0" x2="148" y2="60" stroke="#EAE8E1" stroke-width="1"/>
+          <line x1="0" y1="60" x2="148" y2="0" stroke="#EAE8E1" stroke-width="1"/>
+          <rect x="10" y="10" width="80" height="8" rx="2" fill="#DCD9D0"/>
+          <rect x="10" y="24" width="55" height="6" rx="2" fill="#EAE8E1"/>
+        </g>
+
+        <!-- Filter Chips -->
+        <g transform="translate(10, 166)">
+          <rect x="0" y="0" width="36" height="14" rx="7" fill="#111111"/>
+          <text x="18" y="10" font-size="7" fill="#FFFFFF" font-weight="600" text-anchor="middle" class="sans">Popular</text>
+          
+          <rect x="40" y="0" width="28" height="14" rx="7" fill="none" stroke="#DCD9D0" stroke-width="1"/>
+          <text x="54" y="10" font-size="7" fill="#555555" text-anchor="middle" class="sans">Fast</text>
+          
+          <rect x="72" y="0" width="34" height="14" rx="7" fill="none" stroke="#DCD9D0" stroke-width="1"/>
+          <text x="89" y="10" font-size="7" fill="#555555" text-anchor="middle" class="sans">Price $</text>
+        </g>
+
+        <!-- Section Title -->
+        <text x="10" y="196" font-size="8.5" fill="#111111" font-weight="700" class="sans">Near you · under 25 min</text>
+
+        <!-- Restaurant Card 1 -->
+        <g transform="translate(10, 206)">
+          <rect x="0" y="0" width="148" height="42" fill="#FAF9F5" stroke="#EAE8E1" stroke-width="1"/>
+          <rect x="6" y="6" width="30" height="30" fill="#EAE8E1"/>
+          <line x1="6" y1="6" x2="36" y2="36" stroke="#DCD9D0" stroke-width="0.8"/>
+          <text x="44" y="18" font-size="8.5" fill="#111111" font-weight="700" class="sans">Siam Corner</text>
+          <text x="44" y="30" font-size="7" fill="#666666" class="sans">★ 4.8 (1.2k) · 20–25 min</text>
+        </g>
+
+        <!-- Restaurant Card 2 -->
+        <g transform="translate(10, 256)">
+          <rect x="0" y="0" width="148" height="42" fill="#FAF9F5" stroke="#EAE8E1" stroke-width="1"/>
+          <rect x="6" y="6" width="30" height="30" fill="#EAE8E1"/>
+          <line x1="6" y1="6" x2="36" y2="36" stroke="#DCD9D0" stroke-width="0.8"/>
+          <text x="44" y="18" font-size="8.5" fill="#111111" font-weight="700" class="sans">Pasta Poet</text>
+          <text x="44" y="30" font-size="7" fill="#666666" class="sans">★ 4.6 (850) · 15–20 min</text>
+        </g>
+
+        <!-- Bottom Tab Bar -->
+        <g transform="translate(0, 316)">
+          <line x1="0" y1="0" x2="168" y2="0" stroke="#EAE8E1" stroke-width="1"/>
+          <circle cx="34" cy="12" r="3.5" fill="#111111"/>
+          <circle cx="84" cy="12" r="3.5" fill="#CCCCCC"/>
+          <circle cx="134" cy="12" r="3.5" fill="#CCCCCC"/>
+        </g>
+
+        <!-- Bottom Callout Note -->
+        <g transform="translate(0, 375)">
+          <path d="M0 0 L0 44 L168 44" fill="none" stroke="#DCD9D0" stroke-width="1"/>
+          <text x="6" y="14" font-size="8" fill="#555555" class="sans">
+            <tspan x="6" dy="0">↳ Address, ETA, and visible fees</tspan>
+            <tspan x="6" dy="12">establish relevance before browsing.</tspan>
+          </text>
+        </g>
+      </g>
+      <!-- Arrow -->
+      <text x="178" y="195" font-size="14" fill="#111111" text-anchor="middle">→</text>
+
+      <!-- SCREEN 02: COMPARE -->
+      <g id="Screen-02-Compare" transform="translate(188, 0)">
+        <circle cx="8" cy="7" r="6" fill="#111111"/>
+        <text x="8" y="9.5" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="mono">02</text>
+        <text x="20" y="10" font-size="10" fill="#111111" font-weight="700" class="sans">Compare</text>
+        
+        <rect x="0" y="22" width="168" height="340" rx="16" fill="#FFFFFF" stroke="#111111" stroke-width="1.2"/>
+        <rect x="62" y="28" width="44" height="4" rx="2" fill="#111111"/>
+        <text x="14" y="38" font-size="7.5" fill="#111111" font-weight="600" class="sans">10:11</text>
+        
+        <!-- Header: Back + Search -->
+        <g transform="translate(10, 48)">
+          <text x="0" y="10" font-size="9" fill="#111111">←</text>
+          <text x="14" y="10" font-size="9" fill="#111111" font-weight="700" class="sans">Search</text>
+        </g>
+
+        <!-- Search Input with "thai" -->
+        <g transform="translate(10, 68)">
+          <rect x="0" y="0" width="148" height="20" rx="4" fill="#FFFFFF" stroke="#111111" stroke-width="1"/>
+          <circle cx="10" cy="10" r="3" fill="none" stroke="#111111" stroke-width="1"/>
+          <text x="20" y="13" font-size="8" fill="#111111" font-weight="600" class="sans">thai</text>
+          <text x="136" y="13" font-size="8" fill="#888888">×</text>
+        </g>
+
+        <!-- Filter Chips Row -->
+        <g transform="translate(10, 96)">
+          <rect x="0" y="0" width="46" height="14" rx="3" fill="#FAF9F5" stroke="#111111" stroke-width="1"/>
+          <text x="23" y="10" font-size="6.5" fill="#111111" font-weight="600" text-anchor="middle" class="sans">Under 30m</text>
+          
+          <rect x="50" y="0" width="44" height="14" rx="3" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="1"/>
+          <text x="72" y="10" font-size="6.5" fill="#555555" text-anchor="middle" class="sans">Rating 4.5+</text>
+          
+          <rect x="98" y="0" width="40" height="14" rx="3" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="1"/>
+          <text x="118" y="10" font-size="6.5" fill="#555555" text-anchor="middle" class="sans">Fees &lt;$3</text>
+        </g>
+
+        <!-- Result count -->
+        <text x="10" y="126" font-size="8.5" fill="#111111" font-weight="700" class="sans">18 Thai restaurants</text>
+
+        <!-- Restaurant Card 1 -->
+        <g transform="translate(10, 136)">
+          <rect x="0" y="0" width="148" height="40" fill="#FAF9F5" stroke="#EAE8E1" stroke-width="1"/>
+          <rect x="6" y="6" width="28" height="28" fill="#EAE8E1"/>
+          <line x1="6" y1="6" x2="34" y2="34" stroke="#DCD9D0" stroke-width="0.8"/>
+          <text x="40" y="16" font-size="8" fill="#111111" font-weight="700" class="sans">Siam Corner</text>
+          <text x="40" y="26" font-size="6.5" fill="#666666" class="sans">4.8 · 20–25m · $1.99 fee</text>
+        </g>
+
+        <!-- Restaurant Card 2 -->
+        <g transform="translate(10, 182)">
+          <rect x="0" y="0" width="148" height="40" fill="#FAF9F5" stroke="#EAE8E1" stroke-width="1"/>
+          <rect x="6" y="6" width="28" height="28" fill="#EAE8E1"/>
+          <line x1="6" y1="6" x2="34" y2="34" stroke="#DCD9D0" stroke-width="0.8"/>
+          <text x="40" y="16" font-size="8" fill="#111111" font-weight="700" class="sans">Basil &amp; Lime</text>
+          <text x="40" y="26" font-size="6.5" fill="#666666" class="sans">4.5 · 30–40m · $0.99 fee</text>
+        </g>
+
+        <!-- Restaurant Card 3 -->
+        <g transform="translate(10, 228)">
+          <rect x="0" y="0" width="148" height="40" fill="#FAF9F5" stroke="#EAE8E1" stroke-width="1"/>
+          <rect x="6" y="6" width="28" height="28" fill="#EAE8E1"/>
+          <line x1="6" y1="6" x2="34" y2="34" stroke="#DCD9D0" stroke-width="0.8"/>
+          <text x="40" y="16" font-size="8" fill="#111111" font-weight="700" class="sans">Bangkok Wokbox</text>
+          <text x="40" y="26" font-size="6.5" fill="#666666" class="sans">4.7 · 25–35m · $2.49 fee</text>
+        </g>
+
+        <!-- Sticky Bottom Notice -->
+        <g transform="translate(10, 290)">
+          <rect x="0" y="0" width="148" height="26" rx="4" fill="#F4F3EE" stroke="#E2DFD7" stroke-width="1"/>
+          <circle cx="10" cy="13" r="4" fill="none" stroke="#555555" stroke-width="1"/>
+          <text x="10" y="15.5" font-size="6" fill="#555555" text-anchor="middle" font-weight="700" class="mono">i</text>
+          <text x="18" y="16" font-size="6.5" fill="#444444" class="sans">Fees shown before you open a menu</text>
+        </g>
+
+        <!-- Callout Note -->
+        <g transform="translate(0, 375)">
+          <path d="M0 0 L0 44 L168 44" fill="none" stroke="#DCD9D0" stroke-width="1"/>
+          <text x="6" y="14" font-size="8" fill="#555555" class="sans">
+            <tspan x="6" dy="0">↳ Filters enforce real decision signals;</tspan>
+            <tspan x="6" dy="12">results stay scannable.</tspan>
+          </text>
+        </g>
+      </g>
+      <text x="366" y="195" font-size="14" fill="#111111" text-anchor="middle">→</text>
+
+      <!-- SCREEN 03: CHOOSE -->
+      <g id="Screen-03-Choose" transform="translate(376, 0)">
+        <circle cx="8" cy="7" r="6" fill="#111111"/>
+        <text x="8" y="9.5" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="mono">03</text>
+        <text x="20" y="10" font-size="10" fill="#111111" font-weight="700" class="sans">Choose</text>
+        
+        <rect x="0" y="22" width="168" height="340" rx="16" fill="#FFFFFF" stroke="#111111" stroke-width="1.2"/>
+        <rect x="62" y="28" width="44" height="4" rx="2" fill="#111111"/>
+        <text x="14" y="38" font-size="7.5" fill="#111111" font-weight="600" class="sans">10:11</text>
+        
+        <!-- Header -->
+        <g transform="translate(10, 48)">
+          <text x="0" y="10" font-size="9" fill="#111111">←</text>
+          <text x="14" y="10" font-size="9" fill="#111111" font-weight="700" class="sans">Siam Corner</text>
+          <circle cx="140" cy="8" r="1.5" fill="#111111"/>
+          <circle cx="144" cy="8" r="1.5" fill="#111111"/>
+        </g>
+
+        <!-- Restaurant Hero Image Box -->
+        <g transform="translate(10, 66)">
+          <rect x="0" y="0" width="148" height="42" fill="#F4F3EE" stroke="#E2DFD7" stroke-width="1"/>
+          <line x1="0" y1="0" x2="148" y2="42" stroke="#EAE8E1" stroke-width="1"/>
+          <line x1="0" y1="42" x2="148" y2="0" stroke="#EAE8E1" stroke-width="1"/>
+          <text x="74" y="24" font-size="7" fill="#888888" text-anchor="middle" class="mono">[RESTAURANT COVER]</text>
+        </g>
+
+        <!-- Meta info -->
+        <g transform="translate(10, 116)">
+          <text x="0" y="10" font-size="9" fill="#111111" font-weight="700" class="sans">Siam Corner</text>
+          <text x="0" y="20" font-size="6.5" fill="#666666" class="sans">4.8 (1.2k) · Thai · 20–25 min</text>
+          <text x="0" y="29" font-size="6.5" fill="#111111" font-weight="600" class="sans">$1.99 delivery · $15 min order</text>
+        </g>
+
+        <!-- Tabs -->
+        <g transform="translate(10, 154)">
+          <text x="0" y="8" font-size="7.5" fill="#111111" font-weight="700" class="sans">Popular</text>
+          <line x1="0" y1="12" x2="28" y2="12" stroke="#111111" stroke-width="1.5"/>
+          <text x="40" y="8" font-size="7.5" fill="#777777" class="sans">Noodles</text>
+          <text x="82" y="8" font-size="7.5" fill="#777777" class="sans">Curries</text>
+          <line x1="0" y1="14" x2="148" y2="14" stroke="#EAE8E1" stroke-width="1"/>
+        </g>
+
+        <!-- Menu Item 1 -->
+        <g transform="translate(10, 178)">
+          <text x="0" y="10" font-size="8" fill="#111111" font-weight="700" class="sans">Pad see ew</text>
+          <text x="0" y="20" font-size="6" fill="#777777" class="sans">Thick rice noodles, pork...</text>
+          <text x="0" y="30" font-size="7.5" fill="#111111" font-weight="700" class="sans">$14.50</text>
+          <rect x="116" y="2" width="32" height="30" fill="#F4F3EE" stroke="#E2DFD7" stroke-width="0.8"/>
+        </g>
+
+        <!-- Menu Item 2 -->
+        <g transform="translate(10, 222)">
+          <text x="0" y="10" font-size="8" fill="#111111" font-weight="700" class="sans">Green curry</text>
+          <text x="0" y="20" font-size="6" fill="#777777" class="sans">Bamboo shoots, jasmine...</text>
+          <text x="0" y="30" font-size="7.5" fill="#111111" font-weight="700" class="sans">$15.00</text>
+          <rect x="116" y="2" width="32" height="30" fill="#F4F3EE" stroke="#E2DFD7" stroke-width="0.8"/>
+        </g>
+
+        <!-- Menu Item 3 -->
+        <g transform="translate(10, 266)">
+          <text x="0" y="10" font-size="8" fill="#111111" font-weight="700" class="sans">Papaya salad</text>
+          <text x="0" y="20" font-size="6" fill="#777777" class="sans">Green papaya, peanuts...</text>
+          <text x="0" y="30" font-size="7.5" fill="#111111" font-weight="700" class="sans">$11.00</text>
+          <rect x="116" y="2" width="32" height="30" fill="#F4F3EE" stroke="#E2DFD7" stroke-width="0.8"/>
+        </g>
+
+        <!-- Callout Note -->
+        <g transform="translate(0, 375)">
+          <path d="M0 0 L0 44 L168 44" fill="none" stroke="#DCD9D0" stroke-width="1"/>
+          <text x="6" y="14" font-size="8" fill="#555555" class="sans">
+            <tspan x="6" dy="0">↳ Restaurant expectations and menu</tspan>
+            <tspan x="6" dy="12">structure appear before item selection.</tspan>
+          </text>
+        </g>
+      </g>
+      <text x="554" y="195" font-size="14" fill="#111111" text-anchor="middle">→</text>
+
+      <!-- SCREEN 04: CUSTOMIZE -->
+      <g id="Screen-04-Customize" transform="translate(564, 0)">
+        <circle cx="8" cy="7" r="6" fill="#111111"/>
+        <text x="8" y="9.5" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="mono">04</text>
+        <text x="20" y="10" font-size="10" fill="#111111" font-weight="700" class="sans">Customize</text>
+        
+        <rect x="0" y="22" width="168" height="340" rx="16" fill="#FFFFFF" stroke="#111111" stroke-width="1.2"/>
+        <rect x="62" y="28" width="44" height="4" rx="2" fill="#111111"/>
+        <text x="14" y="38" font-size="7.5" fill="#111111" font-weight="600" class="sans">10:11</text>
+        
+        <!-- Header -->
+        <g transform="translate(10, 48)">
+          <text x="0" y="10" font-size="9" fill="#111111">←</text>
+          <text x="14" y="10" font-size="9" fill="#111111" font-weight="700" class="sans">Item details</text>
+          <text x="140" y="10" font-size="9" fill="#888888">×</text>
+        </g>
+
+        <!-- Dish Image Box -->
+        <g transform="translate(10, 66)">
+          <rect x="0" y="0" width="148" height="42" fill="#F4F3EE" stroke="#E2DFD7" stroke-width="1"/>
+          <line x1="0" y1="0" x2="148" y2="42" stroke="#EAE8E1" stroke-width="1"/>
+          <line x1="0" y1="42" x2="148" y2="0" stroke="#EAE8E1" stroke-width="1"/>
+          <text x="74" y="24" font-size="7" fill="#888888" text-anchor="middle" class="mono">[DISH PHOTO]</text>
+        </g>
+
+        <!-- Item Info -->
+        <g transform="translate(10, 116)">
+          <text x="0" y="10" font-size="9.5" fill="#111111" font-weight="700" class="sans">Pad see ew</text>
+          <text x="148" y="10" font-size="9.5" fill="#111111" font-weight="700" text-anchor="end" class="sans">$14.50</text>
+          <text x="0" y="20" font-size="6" fill="#777777" class="sans">Thick rice noodles, Chinese broccoli, egg...</text>
+        </g>
+
+        <!-- Required Section: Protein -->
+        <g transform="translate(10, 150)">
+          <text x="0" y="8" font-size="7.5" fill="#111111" font-weight="700" class="sans">Choose protein</text>
+          <rect x="110" y="0" width="38" height="11" rx="2" fill="#EAE8E1"/>
+          <text x="129" y="8" font-size="5.5" fill="#111111" font-weight="700" text-anchor="middle" class="mono">REQUIRED</text>
+
+          <!-- Radio 1 (Selected) -->
+          <circle cx="6" cy="22" r="4.5" fill="none" stroke="#111111" stroke-width="1.2"/>
+          <circle cx="6" cy="22" r="2.5" fill="#111111"/>
+          <text x="16" y="25" font-size="7" fill="#111111" class="sans">Chicken</text>
+          <text x="148" y="25" font-size="7" fill="#777777" text-anchor="end" class="sans">+$0</text>
+
+          <!-- Radio 2 -->
+          <circle cx="6" cy="38" r="4.5" fill="none" stroke="#999999" stroke-width="1"/>
+          <text x="16" y="41" font-size="7" fill="#444444" class="sans">Tofu</text>
+          <text x="148" y="41" font-size="7" fill="#777777" text-anchor="end" class="sans">+$0</text>
+
+          <!-- Radio 3 -->
+          <circle cx="6" cy="54" r="4.5" fill="none" stroke="#999999" stroke-width="1"/>
+          <text x="16" y="57" font-size="7" fill="#444444" class="sans">Shrimp</text>
+          <text x="148" y="57" font-size="7" fill="#777777" text-anchor="end" class="sans">+$3.00</text>
+        </g>
+
+        <!-- Special Request Section -->
+        <g transform="translate(10, 226)">
+          <text x="0" y="8" font-size="7.5" fill="#111111" font-weight="700" class="sans">Special request</text>
+          <rect x="0" y="14" width="148" height="22" rx="3" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="1"/>
+          <text x="8" y="28" font-size="6.5" fill="#888888" class="sans">e.g. sauce on side</text>
+        </g>
+
+        <!-- Add to Cart CTA -->
+        <g transform="translate(10, 310)">
+          <rect x="0" y="0" width="148" height="26" rx="6" fill="#111111"/>
+          <text x="74" y="16.5" font-size="8" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="sans">Add 1 to cart · $14.50</text>
+        </g>
+
+        <!-- Callout Note -->
+        <g transform="translate(0, 375)">
+          <path d="M0 0 L0 44 L168 44" fill="none" stroke="#DCD9D0" stroke-width="1"/>
+          <text x="6" y="14" font-size="8" fill="#555555" class="sans">
+            <tspan x="6" dy="0">↳ Required choices are explicit; price</tspan>
+            <tspan x="6" dy="12">updates stay attached to the CTA.</tspan>
+          </text>
+        </g>
+      </g>
+      <text x="742" y="195" font-size="14" fill="#111111" text-anchor="middle">→</text>
+
+      <!-- SCREEN 05: REVIEW -->
+      <g id="Screen-05-Review" transform="translate(752, 0)">
+        <circle cx="8" cy="7" r="6" fill="#111111"/>
+        <text x="8" y="9.5" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="mono">05</text>
+        <text x="20" y="10" font-size="10" fill="#111111" font-weight="700" class="sans">Review</text>
+        
+        <rect x="0" y="22" width="168" height="340" rx="16" fill="#FFFFFF" stroke="#111111" stroke-width="1.2"/>
+        <rect x="62" y="28" width="44" height="4" rx="2" fill="#111111"/>
+        <text x="14" y="38" font-size="7.5" fill="#111111" font-weight="600" class="sans">10:11</text>
+        
+        <!-- Header -->
+        <g transform="translate(10, 48)">
+          <text x="0" y="10" font-size="9" fill="#111111">←</text>
+          <text x="14" y="10" font-size="9" fill="#111111" font-weight="700" class="sans">Your cart</text>
+          <text x="140" y="10" font-size="9" fill="#888888">×</text>
+        </g>
+
+        <!-- Restaurant + ETA -->
+        <g transform="translate(10, 68)">
+          <text x="0" y="10" font-size="9" fill="#111111" font-weight="700" class="sans">Siam Corner</text>
+          <text x="0" y="20" font-size="6.5" fill="#666666" class="sans">Arrival in 20–25 min</text>
+        </g>
+
+        <!-- Cart Items -->
+        <g transform="translate(10, 100)">
+          <!-- Item 1 -->
+          <text x="0" y="10" font-size="7.5" fill="#111111" font-weight="700" class="sans">1x Pad see ew</text>
+          <text x="148" y="10" font-size="7.5" fill="#111111" font-weight="700" text-anchor="end" class="sans">$14.50</text>
+          <text x="0" y="20" font-size="6" fill="#777777" class="sans">Chicken, standard spice</text>
+          <text x="0" y="28" font-size="6" fill="#111111" font-weight="600" text-decoration="underline" class="sans">Edit</text>
+
+          <!-- Item 2 -->
+          <g transform="translate(0, 38)">
+            <text x="0" y="10" font-size="7.5" fill="#111111" font-weight="700" class="sans">1x Green curry</text>
+            <text x="148" y="10" font-size="7.5" fill="#111111" font-weight="700" text-anchor="end" class="sans">$15.00</text>
+            <text x="0" y="20" font-size="6" fill="#777777" class="sans">Tofu, jasmine rice</text>
+            <text x="0" y="28" font-size="6" fill="#111111" font-weight="600" text-decoration="underline" class="sans">Edit</text>
+          </g>
+
+          <!-- Add another item button -->
+          <g transform="translate(0, 80)">
+            <rect x="0" y="0" width="148" height="18" rx="3" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="1"/>
+            <text x="74" y="12" font-size="7" fill="#111111" font-weight="600" text-anchor="middle" class="sans">+ Add another item</text>
+          </g>
+        </g>
+
+        <!-- Itemized Cost Trail -->
+        <g transform="translate(10, 226)">
+          <line x1="0" y1="0" x2="148" y2="0" stroke="#EAE8E1" stroke-width="1"/>
+          <text x="0" y="14" font-size="7" fill="#666666" class="sans">Subtotal</text>
+          <text x="148" y="14" font-size="7" fill="#111111" text-anchor="end" class="sans">$29.50</text>
+          
+          <text x="0" y="26" font-size="7" fill="#666666" class="sans">Delivery + service</text>
+          <text x="148" y="26" font-size="7" fill="#111111" text-anchor="end" class="sans">$3.25</text>
+          
+          <text x="0" y="40" font-size="7.5" fill="#111111" font-weight="700" class="sans">Estimated total</text>
+          <text x="148" y="40" font-size="7.5" fill="#111111" font-weight="700" text-anchor="end" class="sans">$32.75</text>
+        </g>
+
+        <!-- Checkout CTA Button -->
+        <g transform="translate(10, 310)">
+          <rect x="0" y="0" width="148" height="26" rx="6" fill="#111111"/>
+          <text x="74" y="16.5" font-size="8" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="sans">Go to checkout · $32.75</text>
+        </g>
+
+        <!-- Callout Note -->
+        <g transform="translate(0, 375)">
+          <path d="M0 0 L0 44 L168 44" fill="none" stroke="#DCD9D0" stroke-width="1"/>
+          <text x="6" y="14" font-size="8" fill="#555555" class="sans">
+            <tspan x="6" dy="0">↳ Editable items and itemized fees</tspan>
+            <tspan x="6" dy="12">prevent a surprised checkout.</tspan>
+          </text>
+        </g>
+      </g>
+      <text x="930" y="195" font-size="14" fill="#111111" text-anchor="middle">→</text>
+
+      <!-- SCREEN 06: CHECKOUT -->
+      <g id="Screen-06-Checkout" transform="translate(940, 0)">
+        <circle cx="8" cy="7" r="6" fill="#111111"/>
+        <text x="8" y="9.5" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="mono">06</text>
+        <text x="20" y="10" font-size="10" fill="#111111" font-weight="700" class="sans">Checkout</text>
+        
+        <rect x="0" y="22" width="168" height="340" rx="16" fill="#FFFFFF" stroke="#111111" stroke-width="1.2"/>
+        <rect x="62" y="28" width="44" height="4" rx="2" fill="#111111"/>
+        <text x="14" y="38" font-size="7.5" fill="#111111" font-weight="600" class="sans">10:11</text>
+        
+        <!-- Header -->
+        <g transform="translate(10, 48)">
+          <text x="0" y="10" font-size="9" fill="#111111">←</text>
+          <text x="14" y="10" font-size="9" fill="#111111" font-weight="700" class="sans">Checkout</text>
+          <circle cx="140" cy="8" r="1.5" fill="#111111"/>
+          <circle cx="144" cy="8" r="1.5" fill="#111111"/>
+        </g>
+
+        <!-- Checkpoints List -->
+        <g transform="translate(10, 72)">
+          <!-- Address -->
+          <rect x="0" y="0" width="148" height="30" rx="3" fill="#FAF9F5" stroke="#EAE8E1" stroke-width="1"/>
+          <text x="8" y="12" font-size="6" fill="#777777" class="mono">DELIVERY ADDRESS</text>
+          <text x="8" y="22" font-size="7" fill="#111111" font-weight="600" class="sans">18 Mercer St, Apt 4A</text>
+          <text x="140" y="18" font-size="6" fill="#111111" text-anchor="end" class="sans">Edit</text>
+
+          <!-- Time -->
+          <g transform="translate(0, 36)">
+            <rect x="0" y="0" width="148" height="30" rx="3" fill="#FAF9F5" stroke="#EAE8E1" stroke-width="1"/>
+            <text x="8" y="12" font-size="6" fill="#777777" class="mono">DELIVERY TIME</text>
+            <text x="8" y="22" font-size="7" fill="#111111" font-weight="600" class="sans">ASAP · 20–25 min</text>
+            <text x="140" y="18" font-size="6" fill="#111111" text-anchor="end" class="sans">Edit</text>
+          </g>
+
+          <!-- Payment -->
+          <g transform="translate(0, 72)">
+            <rect x="0" y="0" width="148" height="30" rx="3" fill="#FAF9F5" stroke="#EAE8E1" stroke-width="1"/>
+            <text x="8" y="12" font-size="6" fill="#777777" class="mono">PAYMENT METHOD</text>
+            <text x="8" y="22" font-size="7" fill="#111111" font-weight="600" class="sans">Visa ···· 4091</text>
+            <text x="140" y="18" font-size="6" fill="#111111" text-anchor="end" class="sans">Edit</text>
+          </g>
+
+          <!-- Delivery Note -->
+          <g transform="translate(0, 108)">
+            <text x="0" y="8" font-size="6" fill="#777777" class="mono">DELIVERY NOTE</text>
+            <rect x="0" y="12" width="148" height="18" rx="2" fill="#FAF9F5" stroke="#EAE8E1" stroke-width="1"/>
+            <text x="6" y="24" font-size="6" fill="#444444" class="sans">Leave at door, ring bell.</text>
+          </g>
+        </g>
+
+        <!-- Final Total & Place Order -->
+        <g transform="translate(10, 240)">
+          <text x="0" y="12" font-size="7.5" fill="#555555" class="sans">Order total</text>
+          <text x="148" y="12" font-size="11" fill="#111111" font-weight="800" text-anchor="end" class="sans">$37.14</text>
+          
+          <g transform="translate(0, 24)">
+            <rect x="0" y="0" width="148" height="26" rx="6" fill="#111111"/>
+            <text x="74" y="16.5" font-size="8" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="sans">Place order</text>
+          </g>
+          <text x="74" y="60" font-size="5" fill="#888888" text-anchor="middle" class="sans">By placing this order, you agree to the terms</text>
+        </g>
+
+        <!-- Callout Note -->
+        <g transform="translate(0, 375)">
+          <path d="M0 0 L0 44 L168 44" fill="none" stroke="#DCD9D0" stroke-width="1"/>
+          <text x="6" y="14" font-size="8" fill="#555555" class="sans">
+            <tspan x="6" dy="0">↳ Address, timing, and payment are</tspan>
+            <tspan x="6" dy="12">validated without losing the cart.</tspan>
+          </text>
+        </g>
+      </g>
+      <text x="1118" y="195" font-size="14" fill="#111111" text-anchor="middle">→</text>
+
+      <!-- SCREEN 07: CONFIRM -->
+      <g id="Screen-07-Confirm" transform="translate(1128, 0)">
+        <circle cx="8" cy="7" r="6" fill="#111111"/>
+        <text x="8" y="9.5" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="mono">07</text>
+        <text x="20" y="10" font-size="10" fill="#111111" font-weight="700" class="sans">Confirm</text>
+        
+        <rect x="0" y="22" width="168" height="340" rx="16" fill="#FFFFFF" stroke="#111111" stroke-width="1.2"/>
+        <rect x="62" y="28" width="44" height="4" rx="2" fill="#111111"/>
+        <text x="14" y="38" font-size="7.5" fill="#111111" font-weight="600" class="sans">10:11</text>
+        
+        <!-- Big Check Circle -->
+        <g transform="translate(84, 80)">
+          <circle cx="0" cy="0" r="18" fill="#111111"/>
+          <path d="M-6 0 L-2 4 L6 -4" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+
+        <!-- Heading -->
+        <text x="84" y="116" font-size="11" fill="#111111" font-weight="800" text-anchor="middle" class="sans">Order confirmed</text>
+        <text x="84" y="127" font-size="6.5" fill="#666666" text-anchor="middle" class="sans">Siam Corner is preparing your order</text>
+
+        <!-- ETA Highlight Card -->
+        <g transform="translate(10, 140)">
+          <rect x="0" y="0" width="148" height="46" rx="4" fill="#FAF9F5" stroke="#E2DFD7" stroke-width="1"/>
+          <text x="74" y="22" font-size="14" fill="#111111" font-weight="800" text-anchor="middle" class="sans">7:10–7:20 PM</text>
+          <text x="74" y="34" font-size="6" fill="#777777" font-weight="700" text-anchor="middle" class="mono">ESTIMATED ARRIVAL</text>
+        </g>
+
+        <!-- Vertical Milestone Timeline -->
+        <g transform="translate(20, 204)">
+          <!-- Line -->
+          <line x1="4" y1="4" x2="4" y2="44" stroke="#DCD9D0" stroke-width="1.2"/>
+
+          <!-- Milestone 1 (Done) -->
+          <circle cx="4" cy="4" r="3.5" fill="#111111"/>
+          <text x="14" y="7" font-size="7" fill="#111111" font-weight="700" class="sans">Order received</text>
+
+          <!-- Milestone 2 (Current) -->
+          <circle cx="4" cy="18" r="3.5" fill="#FAF9F5" stroke="#111111" stroke-width="1.2"/>
+          <text x="14" y="21" font-size="7" fill="#444444" class="sans">Kitchen preparing</text>
+
+          <!-- Milestone 3 -->
+          <circle cx="4" cy="32" r="3.5" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="1.2"/>
+          <text x="14" y="35" font-size="7" fill="#888888" class="sans">Courier pickup</text>
+
+          <!-- Milestone 4 -->
+          <circle cx="4" cy="46" r="3.5" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="1.2"/>
+          <text x="14" y="49" font-size="7" fill="#888888" class="sans">Delivered</text>
+        </g>
+
+        <!-- CTA Buttons -->
+        <g transform="translate(10, 280)">
+          <rect x="0" y="0" width="148" height="26" rx="6" fill="#111111"/>
+          <text x="74" y="16.5" font-size="8" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="sans">Track my order</text>
+          
+          <text x="74" y="42" font-size="7" fill="#111111" font-weight="600" text-anchor="middle" class="sans">View receipt</text>
+        </g>
+
+        <!-- Callout Note -->
+        <g transform="translate(0, 375)">
+          <path d="M0 0 L0 44 L168 44" fill="none" stroke="#DCD9D0" stroke-width="1"/>
+          <text x="6" y="14" font-size="8" fill="#555555" class="sans">
+            <tspan x="6" dy="0">↳ Receipt, order number, ETA, and next</tspan>
+            <tspan x="6" dy="12">actions appear the moment paid.</tspan>
+          </text>
+        </g>
+      </g>
+      <text x="1306" y="195" font-size="14" fill="#111111" text-anchor="middle">→</text>
+
+      <!-- SCREEN 08: TRACK -->
+      <g id="Screen-08-Track" transform="translate(1316, 0)">
+        <circle cx="8" cy="7" r="6" fill="#111111"/>
+        <text x="8" y="9.5" font-size="7" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="mono">08</text>
+        <text x="20" y="10" font-size="10" fill="#111111" font-weight="700" class="sans">Track</text>
+        
+        <rect x="0" y="22" width="168" height="340" rx="16" fill="#FFFFFF" stroke="#111111" stroke-width="1.2"/>
+        <rect x="62" y="28" width="44" height="4" rx="2" fill="#111111"/>
+        <text x="14" y="38" font-size="7.5" fill="#111111" font-weight="600" class="sans">10:11</text>
+        
+        <!-- Header -->
+        <g transform="translate(10, 48)">
+          <text x="0" y="10" font-size="9" fill="#111111">←</text>
+          <text x="14" y="10" font-size="9" fill="#111111" font-weight="700" class="sans">Order #7842</text>
+          <circle cx="140" cy="8" r="1.5" fill="#111111"/>
+          <circle cx="144" cy="8" r="1.5" fill="#111111"/>
+        </g>
+
+        <!-- Map View Graphic Box -->
+        <g transform="translate(10, 66)">
+          <rect x="0" y="0" width="148" height="80" fill="#F4F3EE" stroke="#E2DFD7" stroke-width="1"/>
+          <!-- Map Roads & Route -->
+          <path d="M10 20 L50 20 L50 60 L130 60" fill="none" stroke="#FFFFFF" stroke-width="6"/>
+          <path d="M10 20 L50 20 L50 60 L130 60" fill="none" stroke="#DCD9D0" stroke-width="2"/>
+          <path d="M30 20 L50 20 L50 50" fill="none" stroke="#111111" stroke-width="2.5" stroke-dasharray="3,2"/>
+          
+          <!-- Courier Pin -->
+          <circle cx="50" cy="50" r="5" fill="#111111"/>
+          <circle cx="50" cy="50" r="2" fill="#FFFFFF"/>
+          
+          <!-- Destination Pin -->
+          <path d="M130 55 C127 55 125 57 125 60 C125 64 130 68 130 68 C130 68 135 64 135 60 C135 57 133 55 130 55 Z" fill="#111111"/>
+          <text x="74" y="18" font-size="6" fill="#888888" text-anchor="middle" class="mono">[LIVE MAP VIEW]</text>
+        </g>
+
+        <!-- Status Card Overlay -->
+        <g transform="translate(10, 154)">
+          <rect x="0" y="0" width="148" height="52" rx="4" fill="#FAF9F5" stroke="#E2DFD7" stroke-width="1"/>
+          <text x="8" y="16" font-size="8" fill="#111111" font-weight="800" class="sans">Courier is on the way</text>
+          <text x="8" y="27" font-size="6.5" fill="#666666" class="sans">Picked up · 7:04 PM</text>
+          
+          <rect x="106" y="8" width="34" height="20" rx="3" fill="#111111"/>
+          <text x="123" y="21.5" font-size="8.5" fill="#FFFFFF" font-weight="700" text-anchor="middle" class="sans">12 min</text>
+        </g>
+
+        <!-- Courier Profile & Contact -->
+        <g transform="translate(10, 214)">
+          <rect x="0" y="0" width="148" height="38" rx="3" fill="#FAF9F5" stroke="#EAE8E1" stroke-width="1"/>
+          <circle cx="16" cy="19" r="9" fill="#EAE8E1"/>
+          <text x="16" y="22" font-size="7" fill="#111111" font-weight="700" text-anchor="middle">A</text>
+          
+          <text x="32" y="16" font-size="7.5" fill="#111111" font-weight="700" class="sans">Alex · courier</text>
+          <text x="32" y="25" font-size="6.5" fill="#666666" class="sans">★ 4.9 · White Toyota</text>
+          
+          <!-- Call & Chat Icons -->
+          <circle cx="118" cy="19" r="7" fill="#EAE8E1"/>
+          <text x="118" y="22" font-size="7" text-anchor="middle">📞</text>
+          
+          <circle cx="136" cy="19" r="7" fill="#EAE8E1"/>
+          <text x="136" y="22" font-size="7" text-anchor="middle">💬</text>
+        </g>
+
+        <!-- Destination Address -->
+        <g transform="translate(10, 260)">
+          <text x="0" y="10" font-size="6" fill="#777777" class="mono">DESTINATION</text>
+          <text x="0" y="20" font-size="7" fill="#111111" font-weight="600" class="sans">18 Mercer St, Apt 4A</text>
+          <text x="0" y="28" font-size="6" fill="#666666" class="sans">Leave at door</text>
+        </g>
+
+        <!-- Help Link -->
+        <text x="84" y="324" font-size="6.5" fill="#111111" font-weight="600" text-decoration="underline" text-anchor="middle" class="sans">Get help with this order</text>
+
+        <!-- Callout Note -->
+        <g transform="translate(0, 375)">
+          <path d="M0 0 L0 44 L168 44" fill="none" stroke="#DCD9D0" stroke-width="1"/>
+          <text x="6" y="14" font-size="8" fill="#555555" class="sans">
+            <tspan x="6" dy="0">↳ Specific delivery states, courier</tspan>
+            <tspan x="6" dy="12">contact, and destination remain secondary.</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== SECTION 5: DESIGN THINKING RECORD ==================== -->
+  <g id="Design-Thinking-Record" transform="translate(60, 1330)">
+    <text x="0" y="0" font-size="9" fill="#777777" font-weight="700" letter-spacing="1" class="mono">DESIGN THINKING RECORD</text>
+    <text x="0" y="24" font-size="20" fill="#111111" font-weight="700" class="sans">What shaped the wireframes—and what comes next.</text>
+    <text x="1480" y="22" font-size="10" fill="#777777" text-anchor="end" class="mono">Working artifact · assumptions + evidence</text>
+
+    <!-- 5 Process Stages Tabs -->
+    <g transform="translate(0, 42)">
+      <!-- 01 Empathize -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="288" height="66" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="1"/>
+        <text x="14" y="18" font-size="8" fill="#777777" class="mono">01</text>
+        <text x="14" y="34" font-size="12" fill="#111111" font-weight="700" class="sans">Empathize</text>
+        <text x="14" y="48" font-size="9" fill="#666666" class="sans">Frame contexts, needs, and trust gaps.</text>
+      </g>
+
+      <!-- 02 Define -->
+      <g transform="translate(298, 0)">
+        <rect x="0" y="0" width="288" height="66" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="1"/>
+        <text x="14" y="18" font-size="8" fill="#777777" class="mono">02</text>
+        <text x="14" y="34" font-size="12" fill="#111111" font-weight="700" class="sans">Define</text>
+        <text x="14" y="48" font-size="9" fill="#666666" class="sans">Prioritize speed, price clarity, and certainty.</text>
+      </g>
+
+      <!-- 03 Ideate -->
+      <g transform="translate(596, 0)">
+        <rect x="0" y="0" width="288" height="66" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="1"/>
+        <text x="14" y="18" font-size="8" fill="#777777" class="mono">03</text>
+        <text x="14" y="34" font-size="12" fill="#111111" font-weight="700" class="sans">Ideate</text>
+        <text x="14" y="48" font-size="9" fill="#666666" class="sans">Explore direct, recoverable ordering paths.</text>
+      </g>
+
+      <!-- 04 Prototype (CURRENT) -->
+      <g transform="translate(894, 0)">
+        <rect x="0" y="0" width="288" height="66" fill="#111111"/>
+        <text x="14" y="18" font-size="8" fill="#AAAAAA" class="mono">04</text>
+        <text x="274" y="18" font-size="8" fill="#FFFFFF" font-weight="700" text-anchor="end" class="mono">CURRENT</text>
+        <text x="14" y="34" font-size="12" fill="#FFFFFF" font-weight="700" class="sans">Prototype</text>
+        <text x="14" y="48" font-size="9" fill="#DCD9D0" class="sans">Build the complete low-fi flow.</text>
+      </g>
+
+      <!-- 05 Test -->
+      <g transform="translate(1192, 0)">
+        <rect x="0" y="0" width="288" height="66" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="1"/>
+        <text x="14" y="18" font-size="8" fill="#777777" class="mono">05</text>
+        <text x="14" y="34" font-size="12" fill="#111111" font-weight="700" class="sans">Test</text>
+        <text x="14" y="48" font-size="9" fill="#666666" class="sans">Observe behavior; revise hierarchy and copy.</text>
+      </g>
+    </g>
+
+    <!-- Bottom 3 Strategic Cards -->
+    <g transform="translate(0, 126)">
+      <!-- Card 1: Problem Framing -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="480" height="210" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="1"/>
+        <text x="20" y="24" font-size="9" fill="#777777" font-weight="700" class="mono">PROBLEM FRAMING</text>
+        <!-- Icon -->
+        <circle cx="456" cy="22" r="6" fill="none" stroke="#777777" stroke-width="1.2"/>
+        <line x1="453" y1="19" x2="459" y2="25" stroke="#777777" stroke-width="1.2"/>
+        <line x1="453" y1="25" x2="459" y2="19" stroke="#777777" stroke-width="1.2"/>
+
+        <text x="20" y="52" font-size="8" fill="#777777" font-weight="700" class="mono">PROBLEM STATEMENT</text>
+        <text x="20" y="70" font-size="11" fill="#111111" class="sans" width="440">
+          <tspan x="20" dy="0">Time-pressed diners need a fast way to compare, customize, and track delivery</tspan>
+          <tspan x="20" dy="16">because hidden costs and vague status updates make ordering feel risky.</tspan>
+        </text>
+
+        <line x1="20" y1="110" x2="460" y2="110" stroke="#EAE8E1" stroke-width="1"/>
+
+        <text x="20" y="132" font-size="8" fill="#777777" font-weight="700" class="mono">HOW MIGHT WE...</text>
+        <text x="20" y="152" font-size="11.5" fill="#111111" font-weight="600" class="sans" width="440">
+          <tspan x="20" dy="0">…help people commit quickly while keeping total cost, timing, and order progress</tspan>
+          <tspan x="20" dy="16">visible at every critical moment?</tspan>
+        </text>
+      </g>
+
+      <!-- Card 2: Major Decisions -->
+      <g transform="translate(500, 0)">
+        <rect x="0" y="0" width="480" height="210" fill="#FAF9F5" stroke="#DCD9D0" stroke-width="1"/>
+        <text x="20" y="24" font-size="9" fill="#777777" font-weight="700" class="mono">MAJOR DECISIONS</text>
+        <!-- Decision Icon -->
+        <circle cx="456" cy="22" r="3" fill="#777777"/>
+        <path d="M453 22 L449 26 M453 22 L449 18" stroke="#777777" stroke-width="1.2"/>
+
+        <g transform="translate(20, 48)">
+          <!-- Item 1 -->
+          <circle cx="6" cy="6" r="4.5" fill="#111111"/>
+          <path d="M4 6 L5.5 7.5 L8 4.5" fill="none" stroke="#FFFFFF" stroke-width="1.2"/>
+          <text x="18" y="9" font-size="10.5" fill="#111111" font-weight="700" class="sans">Expose fees early</text>
+          <text x="18" y="22" font-size="9.5" fill="#555555" class="sans">Show delivery cost in results and an itemized estimate in cart.</text>
+
+          <!-- Item 2 -->
+          <g transform="translate(0, 36)">
+            <circle cx="6" cy="6" r="4.5" fill="#111111"/>
+            <path d="M4 6 L5.5 7.5 L8 4.5" fill="none" stroke="#FFFFFF" stroke-width="1.2"/>
+            <text x="18" y="9" font-size="10.5" fill="#111111" font-weight="700" class="sans">Use staged commitment</text>
+            <text x="18" y="22" font-size="9.5" fill="#555555" class="sans">Separate discovery, customization, review, and payment into clear checkpoints.</text>
+          </g>
+
+          <!-- Item 3 -->
+          <g transform="translate(0, 72)">
+            <circle cx="6" cy="6" r="4.5" fill="#111111"/>
+            <path d="M4 6 L5.5 7.5 L8 4.5" fill="none" stroke="#FFFFFF" stroke-width="1.2"/>
+            <text x="18" y="9" font-size="10.5" fill="#111111" font-weight="700" class="sans">Protect recovery</text>
+            <text x="18" y="22" font-size="9.5" fill="#555555" class="sans">Keep cart state while people edit items, address, timing, or payment.</text>
+          </g>
+
+          <!-- Item 4 -->
+          <g transform="translate(0, 108)">
+            <circle cx="6" cy="6" r="4.5" fill="#111111"/>
+            <path d="M4 6 L5.5 7.5 L8 4.5" fill="none" stroke="#FFFFFF" stroke-width="1.2"/>
+            <text x="18" y="9" font-size="10.5" fill="#111111" font-weight="700" class="sans">Make status concrete</text>
+            <text x="18" y="22" font-size="9.5" fill="#555555" class="sans">Pair every tracking state with an ETA, timestamp, or next action.</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- Card 3: Next Validation Steps -->
+      <g transform="translate(1000, 0)">
+        <rect x="0" y="0" width="480" height="210" fill="#111111"/>
+        <text x="20" y="24" font-size="9" fill="#999999" font-weight="700" class="mono">NEXT VALIDATION STEPS</text>
+        <!-- Clipboard Icon -->
+        <rect x="450" y="16" width="10" height="12" fill="none" stroke="#999999" stroke-width="1"/>
+        <line x1="453" y1="14" x2="457" y2="14" stroke="#999999" stroke-width="1"/>
+
+        <g transform="translate(20, 48)">
+          <!-- Test 1 -->
+          <text x="0" y="8" font-size="9" fill="#AAAAAA" class="mono">01</text>
+          <text x="20" y="8" font-size="10.5" fill="#FFFFFF" font-weight="700" class="sans">5 moderated task tests</text>
+          <text x="20" y="20" font-size="9" fill="#CCCCCC" class="mono">TARGET: 4/5 complete order walkthrough in &lt;4 min</text>
+
+          <!-- Test 2 -->
+          <g transform="translate(0, 36)">
+            <text x="0" y="8" font-size="9" fill="#AAAAAA" class="mono">02</text>
+            <text x="20" y="8" font-size="10.5" fill="#FFFFFF" font-weight="700" class="sans">Fee-comprehension check</text>
+            <text x="20" y="20" font-size="9" fill="#CCCCCC" class="mono">TARGET: users predict final total within $1</text>
+          </g>
+
+          <!-- Test 3 -->
+          <g transform="translate(0, 72)">
+            <text x="0" y="8" font-size="9" fill="#AAAAAA" class="mono">03</text>
+            <text x="20" y="8" font-size="10.5" fill="#FFFFFF" font-weight="700" class="sans">Tracking-state review</text>
+            <text x="20" y="20" font-size="9" fill="#CCCCCC" class="mono">TARGET: 80% correctly explain status + next step</text>
+          </g>
+
+          <!-- Test 4 -->
+          <g transform="translate(0, 108)">
+            <text x="0" y="8" font-size="9" fill="#AAAAAA" class="mono">04</text>
+            <text x="20" y="8" font-size="10.5" fill="#FFFFFF" font-weight="700" class="sans">Edge-case prototype</text>
+            <text x="20" y="20" font-size="9" fill="#CCCCCC" class="mono">TEST: unavailable item, late courier, address edit</text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== FOOTER ==================== -->
+  <g id="Footer" transform="translate(60, 1720)">
+    <line x1="0" y1="0" x2="1480" y2="0" stroke="#E2DFD7" stroke-width="1"/>
+    
+    <circle cx="6" cy="22" r="3" fill="#111111"/>
+    <text x="16" y="25" font-size="10" fill="#444444" class="sans">Ready for critique: validate the riskiest assumptions before increasing fidelity.</text>
+    
+    <text x="1480" y="25" font-size="9.5" fill="#777777" font-weight="700" text-anchor="end" class="mono">FOOD DELIVERY / UX PLAN / 01</text>
+  </g>
+</svg>

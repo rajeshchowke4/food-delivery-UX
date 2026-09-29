@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Delivery UX Planning Board & Wireframes · Figma Ready</title>
+  <style>
+    :root {
+      --bg-canvas: #1E1E1E;
+      --board-bg: #FAF9F5;
+      --text-main: #111111;
+      --text-muted: #666666;
+      --border-color: #E2DFD7;
+      --accent-black: #111111;
+      --figma-purple: #0D99FF;
+      --figma-bg: #2C2C2C;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;
+      background-color: var(--bg-canvas);
+      color: #FFFFFF;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* TOP ACTION TOOLBAR */
+    .top-toolbar {
+      background: #181818;
+      border-bottom: 1px solid #333333;
+      padding: 14px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+
+    .toolbar-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .figma-badge {
+      background: #000000;
+      border: 1px solid #3d3d3d;
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 700;
+      color: #0D99FF;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .toolbar-title {
+      font-size: 16px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+    }
+
+    .toolbar-subtitle {
+      font-size: 12px;
+      color: #888888;
+    }
+
+    .toolbar-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .btn {
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s ease;
+      border: none;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: #0D99FF;
+      color: #FFFFFF;
+    }
+    .btn-primary:hover {
+      background: #007CE8;
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: #2E2E2E;
+      color: #E0E0E0;
+      border: 1px solid #444444;
+    }
+    .btn-secondary:hover {
+      background: #3B3B3B;
+      color: #FFFFFF;
+    }
+
+    .btn-success {
+      background: #10B981 !important;
+      color: #FFFFFF !important;
+    }
+
+    /* MAIN LAYOUT */
+    .app-container {
+      display: flex;
+      flex: 1;
+      height: calc(100vh - 65px);
+      overflow: hidden;
+    }
+
+    /* LEFT SIDEBAR: QUICK SCREENS & GUIDE */
+    .sidebar {
+      width: 380px;
+      background: #242424;
+      border-right: 1px solid #333333;
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+    }
+
+    .sidebar-section {
+      padding: 20px;
+      border-bottom: 1px solid #333333;
+    }
+
+    .sidebar-title {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: #888888;
+      font-weight: 700;
+      margin-bottom: 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .instructions-card {
+      background: #1E1E1E;
+      border: 1px solid #333333;
+      border-radius: 8px;
+      padding: 14px;
+      margin-bottom: 12px;
+    }
+
+    .instructions-card h4 {
+      font-size: 13px;
+      color: #FFFFFF;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .instructions-card p {
+      font-size: 12px;
+      color: #AAAAAA;
+      line-height: 1.5;
+    }
+
+    .instructions-card code {
+      background: #111111;
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #0D99FF;
+      font-family: monospace;
+      font-size: 11px;
+    }
+
+    /* SCREENS LIST */
+    .screen-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 12px;
+      background: #1E1E1E;
+      border: 1px solid #333333;
+      border-radius: 8px;
+      margin-bottom: 8px;
+      transition: border-color 0.2s;
+    }
+
+    .screen-item:hover {
+      border-color: #0D99FF;
+    }
+
+    .screen-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .screen-num {
+      background: #111111;
+      border: 1px solid #444444;
+      width: 26px;
+      height: 26px;
+      border-radius: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 700;
+      font-family: monospace;
+      color: #FFFFFF;
+    }
+
+    .screen-name {
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .screen-actions {
+      display: flex;
+      gap: 6px;
+    }
+
+    .btn-icon {
+      padding: 6px 10px;
+      font-size: 11px;
+      border-radius: 6px;
+      background: #2C2C2C;
+      color: #DDDDDD;
+      border: 1px solid #444444;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .btn-icon:hover {
+      background: #0D99FF;
+      color: #FFFFFF;
+      border-color: #0D99FF;
+    }
+
+    /* RIGHT MAIN CONTENT: BOARD PREVIEW */
+    .main-canvas {
+      flex: 1;
+      overflow: auto;
+      padding: 40px;
+      background: #181818;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .board-wrapper {
+      background: var(--board-bg);
+      box-shadow: 0 10px 50px rgba(0,0,0,0.6);
+      border-radius: 8px;
+      overflow: hidden;
+      max-width: 1400px;
+      width: 100%;
+    }
+
+    .board-wrapper img, .board-wrapper svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* TOAST NOTIFICATION */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #10B981;
+      color: #FFFFFF;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.3s ease;
+      pointer-events: none;
+      z-index: 2000;
+    }
+
+    .toast.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP TOOLBAR -->
+  <header class="top-toolbar">
+    <div class="toolbar-brand">
+      <div class="figma-badge">
+        <svg width="14" height="21" viewBox="0 0 14 21" fill="none">
+          <path d="M3.5 21C5.433 21 7 19.433 7 17.5V14H3.5C1.567 14 0 15.567 0 17.5C0 19.433 1.567 21 3.5 21Z" fill="#0ACF83"/>
+          <path d="M0 10.5C0 8.567 1.567 7 3.5 7H7V14H3.5C1.567 14 0 12.433 0 10.5Z" fill="#A259FF"/>
+          <path d="M0 3.5C0 1.567 1.567 0 3.5 0H7V7H3.5C1.567 7 0 5.433 0 3.5Z" fill="#F24E1E"/>
+          <path d="M7 0H10.5C12.433 0 14 1.567 14 3.5C14 5.433 12.433 7 10.5 7H7V0Z" fill="#FF7262"/>
+          <path d="M14 10.5C14 12.433 12.433 14 10.5 14C8.567 14 7 12.433 7 10.5C7 8.567 8.567 7 10.5 7C12.433 7 14 8.567 14 10.5Z" fill="#1ABCFE"/>
+        </svg>
+        FIGMA READY
+      </div>
+      <div>
+        <h1 class="toolbar-title">Dinner, without the guesswork · Mobile UX Planning Board</h1>
+        <p class="toolbar-subtitle">End-to-end food ordering experience wireframe specification</p>
+      </div>
+    </div>
+
+    <div class="toolbar-actions">
+      <button class="btn btn-primary" onclick="copyMasterSVG()">
+        📋 Copy Full Board to Figma (Ctrl+V)
+      </button>
+      <a class="btn btn-secondary" href="food_delivery_ux_board.svg" download="food_delivery_ux_board.svg">
+        ⬇ Download Master .SVG
+      </a>
+    </div>
+  </header>
+
+  <!-- APP CONTAINER -->
+  <div class="app-container">
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <h3 class="sidebar-title">How to use in Figma</h3>
+        
+        <div class="instructions-card">
+          <h4>⚡ Method 1: Instant Copy &amp; Paste (Easiest)</h4>
+          <p>Click <code>📋 Copy Full Board to Figma</code> above, then switch to Figma and press <code>Ctrl + V</code> (or <code>Cmd + V</code>). Figma natively converts the SVG into vector layers and frames!</p>
+        </div>
+
+        <div class="instructions-card">
+          <h4>📁 Method 2: Drag &amp; Drop</h4>
+          <p>Drag the <code>food_delivery_ux_board.svg</code> file or any screen from the <code>screens/</code> folder directly into your Figma canvas.</p>
+        </div>
+
+        <div class="instructions-card">
+          <h4>🪄 Method 3: Figma Plugin Script</h4>
+          <p>Open <code>figma_generator_script.js</code> in this folder, copy its code, open Figma Console (under <code>Plugins &gt; Development &gt; Open Console</code>) and press Enter to generate native frames.</p>
+        </div>
+      </div>
+
+      <!-- INDIVIDUAL SCREENS SECTION -->
+      <div class="sidebar-section">
+        <h3 class="sidebar-title">
+          <span>8 Mobile Wireframe Screens</span>
+          <span style="font-size: 11px; color:#888;">390 x 844</span>
+        </h3>
+
+        <!-- Screen 01 -->
+        <div class="screen-item">
+          <div class="screen-info">
+            <div class="screen-num">01</div>
+            <div>
+              <div class="screen-name">Discover</div>
+              <div style="font-size: 11px; color: #888;">Browse nearby picks</div>
+            </div>
+          </div>
+          <div class="screen-actions">
+            <button class="btn-icon" onclick="copyScreen('01_discover.svg', '01 Discover')">📋 Copy</button>
+            <a class="btn-icon" href="screens/01_discover.svg" download>⬇</a>
+          </div>
+        </div>
+
+        <!-- Screen 02 -->
+        <div class="screen-item">
+          <div class="screen-info">
+            <div class="screen-num">02</div>
+            <div>
+              <div class="screen-name">Compare</div>
+              <div style="font-size: 11px; color: #888;">Filter ETA + cuisine</div>
+            </div>
+          </div>
+          <div class="screen-actions">
+            <button class="btn-icon" onclick="copyScreen('02_compare.svg', '02 Compare')">📋 Copy</button>
+            <a class="btn-icon" href="screens/02_compare.svg" download>⬇</a>
+          </div>
+        </div>
+
+        <!-- Screen 03 -->
+        <div class="screen-item">
+          <div class="screen-info">
+            <div class="screen-num">03</div>
+            <div>
+              <div class="screen-name">Choose</div>
+              <div style="font-size: 11px; color: #888;">Open restaurant</div>
+            </div>
+          </div>
+          <div class="screen-actions">
+            <button class="btn-icon" onclick="copyScreen('03_choose.svg', '03 Choose')">📋 Copy</button>
+            <a class="btn-icon" href="screens/03_choose.svg" download>⬇</a>
+          </div>
+        </div>
+
+        <!-- Screen 04 -->
+        <div class="screen-item">
+          <div class="screen-info">
+            <div class="screen-num">04</div>
+            <div>
+              <div class="screen-name">Customize</div>
+              <div style="font-size: 11px; color: #888;">Select item options</div>
+            </div>
+          </div>
+          <div class="screen-actions">
+            <button class="btn-icon" onclick="copyScreen('04_customize.svg', '04 Customize')">📋 Copy</button>
+            <a class="btn-icon" href="screens/04_customize.svg" download>⬇</a>
+          </div>
+        </div>
+
+        <!-- Screen 05 -->
+        <div class="screen-item">
+          <div class="screen-info">
+            <div class="screen-num">05</div>
+            <div>
+              <div class="screen-name">Review</div>
+              <div style="font-size: 11px; color: #888;">Edit cart + totals</div>
+            </div>
+          </div>
+          <div class="screen-actions">
+            <button class="btn-icon" onclick="copyScreen('05_review.svg', '05 Review')">📋 Copy</button>
+            <a class="btn-icon" href="screens/05_review.svg" download>⬇</a>
+          </div>
+        </div>
+
+        <!-- Screen 06 -->
+        <div class="screen-item">
+          <div class="screen-info">
+            <div class="screen-num">06</div>
+            <div>
+              <div class="screen-name">Checkout</div>
+              <div style="font-size: 11px; color: #888;">Address + payment</div>
+            </div>
+          </div>
+          <div class="screen-actions">
+            <button class="btn-icon" onclick="copyScreen('06_checkout.svg', '06 Checkout')">📋 Copy</button>
+            <a class="btn-icon" href="screens/06_checkout.svg" download>⬇</a>
+          </div>
+        </div>
+
+        <!-- Screen 07 -->
+        <div class="screen-item">
+          <div class="screen-info">
+            <div class="screen-num">07</div>
+            <div>
+              <div class="screen-name">Confirm</div>
+              <div style="font-size: 11px; color: #888;">See receipt + ETA</div>
+            </div>
+          </div>
+          <div class="screen-actions">
+            <button class="btn-icon" onclick="copyScreen('07_confirm.svg', '07 Confirm')">📋 Copy</button>
+            <a class="btn-icon" href="screens/07_confirm.svg" download>⬇</a>
+          </div>
+        </div>
+
+        <!-- Screen 08 -->
+        <div class="screen-item">
+          <div class="screen-info">
+            <div class="screen-num">08</div>
+            <div>
+              <div class="screen-name">Track</div>
+              <div style="font-size: 11px; color: #888;">Follow live progress</div>
+            </div>
+          </div>
+          <div class="screen-actions">
+            <button class="btn-icon" onclick="copyScreen('08_track.svg', '08 Track')">📋 Copy</button>
+            <a class="btn-icon" href="screens/08_track.svg" download>⬇</a>
+          </div>
+        </div>
+
+      </div>
+    </aside>
+
+    <!-- RIGHT MAIN CANVAS: BOARD PREVIEW -->
+    <main class="main-canvas">
+      <div class="board-wrapper">
+        <object id="boardObject" data="food_delivery_ux_board.svg" type="image/svg+xml" style="width: 100%; display: block;"></object>
+      </div>
+    </main>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast" class="toast">✅ Copied SVG to clipboard! Switch to Figma and press Ctrl + V</div>
+
+  <script>
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      toast.innerText = message;
+      toast.classList.add('visible');
+      setTimeout(() => {
+        toast.classList.remove('visible');
+      }, 3500);
+    }
+
+    async function copyMasterSVG() {
+      try {
+        const response = await fetch('food_delivery_ux_board.svg');
+        const svgText = await response.text();
+        await navigator.clipboard.writeText(svgText);
+        showToast('✅ Full Planning Board SVG copied! Switch to Figma and press Ctrl + V');
+      } catch (err) {
+        showToast('⚠️ Could not auto-copy. You can drag food_delivery_ux_board.svg directly into Figma!');
+      }
+    }
+
+    async function copyScreen(fileName, screenTitle) {
+      try {
+        const response = await fetch('screens/' + fileName);
+        const svgText = await response.text();
+        await navigator.clipboard.writeText(svgText);
+        showToast(`✅ ${screenTitle} copied! Switch to Figma and press Ctrl + V`);
+      } catch (err) {
+        showToast(`⚠️ Please drag screens/${fileName} into Figma.`);
+      }
+    }
+  </script>
+</body>
+</html>
